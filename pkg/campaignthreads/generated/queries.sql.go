@@ -9,6 +9,39 @@ import (
 	"context"
 )
 
+const listThreadsByStatus = `-- name: ListThreadsByStatus :many
+SELECT id, created_at, updated_at, status FROM campaign_threads
+WHERE status = $1
+`
+
+func (q *Queries) ListThreadsByStatus(ctx context.Context, status string) ([]CampaignThread, error) {
+	rows, err := q.db.QueryContext(ctx, listThreadsByStatus, status)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	var items []CampaignThread
+	for rows.Next() {
+		var i CampaignThread
+		if err := rows.Scan(
+			&i.ID,
+			&i.CreatedAt,
+			&i.UpdatedAt,
+			&i.Status,
+		); err != nil {
+			return nil, err
+		}
+		items = append(items, i)
+	}
+	if err := rows.Close(); err != nil {
+		return nil, err
+	}
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+	return items, nil
+}
+
 const updateStatus = `-- name: UpdateStatus :exec
 UPDATE campaign_threads
 SET status = $1
