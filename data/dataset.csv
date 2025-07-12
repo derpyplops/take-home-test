@@ -1,0 +1,980 @@
+id,transcript,timestamp,time_zone,human_generated_intent,human_generated_intent_time,predicted_intent,predicted_interested_time,predicted_callback_time
+1,"User: Hello?
+Agent: Hi 
+User: Hello? 
+Agent: Appiah! This is James from Kaplan. Do you have a minute to chat?
+User: Uh, yes.
+Agent: Great! I wanted to check if you are still interested in pursuing the Bachelor of Business in Accounting degree at 
+User: Uh, 
+Agent: Merkle University?
+User: no.
+User: No.
+Agent: Oh, I see. May I ask what led you to change 
+Agent: your mind? Was it about the costs, time commitment, or something else?
+User: Yeah. It's a commitment.
+Agent: I completely understand. Balancing studies with other commitments can feel overwhelming. The good thing is that Merkle offers flexible study options, like a mix of online and face-to-face lessons, so you can fit it into your schedule.Do you think this 
+User: Yeah. 
+Agent: flexibility might 
+User: Yeah. Yeah. Because I I I've done my degree there. I I feel like right now with my kids and my Uh, my work, I might not be able to commit. So maybe in future,
+Agent: That makes total sense, Appiah. It sounds like you have a lot on your plate right now. I can ",2025-03-30T11:00:00,Asia/Singapore,voice_wants_call_back,2026-01-01T09:00:00,voice_not_interested,,
+2,"User: Hello?
+Agent: Hi 
+User: Hello? 
+Agent: Wai Kit, this is James from Kaplan. Do you have a minute to chat?
+User: No. Sorry. Can you call back another day?
+Agent: No problem at all! When would be a good day 
+User: Thank you. 
+Agent: for me to call 
+User: Bye bye.
+User: Thank you. Bye bye.",2025-03-30T11:00:00,Asia/Singapore,voice_wants_call_back,2025-03-31T09:00:00,voice_wants_call_back,,2025-03-31T18:00:00
+3,"User: Big o mum. Is mid
+Agent: Hi there! This is David from Domer College. Do you have 30 seconds to chat?
+Agent: No problem if now isn’t a good time! When would be better for me to call you back?
+User: The three
+Agent: Got it! I'll give you a call back at 3 p.m. today. Talk to you then!
+Agent: I'll take that as a confirmation. I'll call you back at 3 p.m.
+User: (inaudible speech)
+Agent:  today. Speak soon!",2025-04-26T12:23:16,Europe/London,voice_wants_call_back,2025-04-26T15:00:00,voice_wants_call_back,,2025-04-26T15:00:00
+4,"Agent: Hi John, I'm David, an AI calling from Global College. Do you have 30 seconds to speak?
+User: Yes.
+Agent: Great! I wanted to check if you're still interested in the 3-Year Bachelor of Arts in Business program starting in October 2025 at Global College?
+User: I'm in high school now, I'm not interested right now.
+Agent: Got it, John. Since you're still 
+User: So it'll be 
+Agent: in high school, it 
+User: next year.
+Agent: I see. The program also has an intake in October 2026, so you can apply for that next year. Is there anything you'd like to know about the program or Global College in general?
+User: Don't have a question in mind right now.
+Agent: No problem at all! If anything comes up later, feel free to reach out. Thanks for your time, John, and have a great day!
+User: Thank you.
+Agent: You're ",2025-04-26T12:23:16,Europe/London,voice_wants_call_back,2026-01-01T09:00:00,voice_not_interested,,
+5,"User: Hello?
+Agent: Hi Xavier, this is James from Kaplan. Do you have a minute to chat?
+User: (inaudible speech)
+Agent: Are you still there, Xavier? Do you have a moment to chat?
+User: I I I'm in a meeting.
+Agent: No problem at all! When would be a better time for me to call you back?
+User: Maybe the afternoon.
+Agent: Got it! I will give you a call back this afternoon. Have a great meeting, 
+User: Okay. Thanks.
+Agent: Shelia! Talk soon.",2025-06-07T10:24:15,Asia/Singapore,voice_wants_call_back,2025-06-07T12:00:00,voice_wants_call_back,,2025-06-07T15:00:00
+6,"User: Hello?
+Agent: Hi Alan, this is James from Kaplan Singapore. Hope you are doing well! Do you have a minute to chat?
+User: Maybe not now. Can can you call back later?
+Agent: No problem at all, Alan. When would be a good time for me to give you a call back?
+User: Maybe about two PM.
+Agent: Alright, I will give you a call around two this 
+User: Yep. Yeah. Thank 
+Agent: afternoon. If you have any questions 
+User: you.",2025-06-08T10:24:15,Asia/Singapore,voice_wants_call_back,2025-06-08T14:00:00,voice_wants_call_back,,2025-06-08T14:00:00
+7,"User: Hello?
+Agent: Hi Joel! This is James from Kaplan Singapore. Do you have a minute to chat?
+User: I'm trying to say what right now. I just is this a ZIP?
+Agent: No worries, Joel! Just to clarify, this is not 
+User: Yeah.
+Agent: about a ZIP file. I am calling from Kaplan Singapore to follow up on your interest in studying law with Manchester University. Do you have a moment to chat, or would you prefer I call you back later?
+User: Oh, yeah. Yeah. I think, uh, could you call me back later?
+Agent: Of course, Joel! What time would be good for me to call you back later today, or is there another day that works better for you?
+User: Yeah. Maybe you could call me back on Thursday because I'm free anytime that day.
+Agent: Great, thanks for letting me know! On Thursday, I can give 
+User: Okay.
+Agent: you a call at a time that suits you. Would you prefer morning, around lunchtime, or in the afternoon?
+User: Morning will be good.
+Agent: Perfect, I will give you a call on Thursday morning. If you have any questions in the meantime, just let me know. Looking forward to speaking with you then!
+User: Okay.
+User: you.
+Agent: Alright, Ariffin. Have a great day and I will catch you on Thursday morning. Take care!",2025-06-10T09:02:00,Asia/Singapore,voice_wants_call_back,2025-06-12T09:00:00,voice_wants_call_back,,2025-06-12T09:00:00
+8,"User: Hello?
+Agent: Hi Vivek, this is James from Kaplan Singapore. Do you have a minute to 
+Agent: chat?
+User: Yeah. Hello, I think.
+User: I'm missing my call, Tyler. Who's speaking?
+User: you call me after maybe five o'clock?
+Agent: Thanks for letting me know, Vivek. I am James from 
+User: Yeah.
+Agent: Kaplan Singapore, just following up on your interest in the Information Technology degree with Bristol University. No worries about the timing—what time after five works best for you for a quick call back?
+User: Or lunchtime?
+User: is 
+Agent: Sure 
+User: also okay if you call about one one one o'clock, one thirty?
+Agent: Alright, 
+User: But it's not a 
+Agent: Vivek. I can 
+User: government course, ma'am. That that's why. We'll be finishing off the full stack junior course with transition Singapore.
+User: This week.
+Agent: Thanks for sharing, Vivek. You are right, the 
+User: Yeah. And
+Agent: Information Technology degree with Kaplan and Bristol University is not a government-funded course, so SkillsFuture credits cannot be used. But we do offer education grants and flexible payment options to help with fees.
+
+Since you are finishing your full stack junior course this week, would you like me to call you back after you are done, or would you prefer a call during 
+User: Okay.
+User: Yeah. I think that'd be the best thing.
+User: Yeah. That'd be that'd be best. I mean, I this It's it's the part that I wanted to look into cybersecurity.
+User: but if you're looking at the best bachelor's degree, right, there's also options there are options from NTU also for me because I'm a single born here. So it comes from a PACE. I think, p a c e, thing where they actually offered me something because I'm I'm not I'm I'm unemployed at this moment.
+Agent: That 
+User: So NTU, 
+Agent: makes sense, Vivek.
+User: actually. Yeah. Correct. So they will speak more maybe at two estimates. You mean, maybe next week?
+Agent: Got it, Vivek. Sounds like you are 
+User: Yeah.
+Agent: weighing your options between NTU and Kaplan for your next step in cybersecurity, especially since NTU has some support 
+User: Yeah. Correct. M q will definitely be the first option.
+User: think my father-in-law in about billiard, basically. Even though I came from Nagang Poly before my before my NS and all that. You know? So I think it makes sense. I'm forty two years of age, so I have to keep my my children be happy also. Yeah. But I just want to know more about the cybersecurity in terms of it is being heavily funded How much do I have to, you know, come out of my pocket?
+User: that's that's one of the most important thing. Mean, being a brave enough a expert dinner for the house, you know, behind the where you you know, we what what how much money is gonna come up. But the n p u one, the parent they bought something which is much more lucrative.
+User: Because, you know, since you do you don't have a job, I think they they they allow me to use CPF or something, but I don't don't don't question me yet because I haven't really go in and speak with them more, but they told me that I am because I came I came from HR background. Over the years.
+Agent: Thanks for sharing all that, Vivek. I totally get where 
+User: Yeah.
+Agent: you are coming from—cost is a huge factor, especially when you are supporting your family and looking for the best value.
+
+For the Information Technology degree at Kaplan, SkillsFuture and CPF cannot be used, but there are education grants, study loans, and 0% instalment plans to help with fees. The exact amount you will need to pay depends on the programme, and your advisor can break down all the costs and payment options for you.
+
+Would you like me to arrange a call with a Kaplan advisor next week, maybe around 2 PM, so you can get all the details and compare your options?
+User: Okay.
+User: Okay.
+User: Okay. So I I also believe you one more thing. It's not a waste waste people's time because people's time is, of course, an essence for me too.
+User: me 
+Agent: Absolutely, 
+User: finish up this this course first. If you can follow-up with me next Monday or Tuesday, Jamie, because next week is this Friday, is our submission for capstone.
+User: And then the following week would be my interviews with companies like Tata and all that. Let's see whether I'll end the job or not.
+User: I am hopeful. And at the same time, if it doesn't work that way, then I will have to look at, you know, growing myself further by doing you know, of course, I do some ad hoc with with with with companies to to sustain. So let's just speak on Monday or Tuesday. I think Tuesday will be the best thing.
+User: Next Tuesday.
+Agent: Thanks for sharing, Vivek. That sounds like a solid 
+User: No problem. 
+Agent: plan—let us see how things go with your interviews first. I will follow up with you 
+User: Sure.
+Agent: Great, Vivek. I will give you a call next Tuesday to check in and see how things are going. In the meantime, if you 
+User: Thank you, 
+Agent: have any questions or 
+User: sir. Yeah. No. No. No. I mean, we no questions for now.
+Agent: You are most 
+User: Hello? Yeah.
+Agent: welcome, Vivek. All the best for your capstone and interviews—hope everything goes well! I will catch up with you next Tuesday. Take care and have a good week 
+User: Yes. Yes. Thanks, David. Yes. You have a good day. You too.
+User: be to ahead to you too. Thanks thanks for the call. Appreciate it. Bye.
+Agent: Thank you, Vivek. Take care and all the best with everything. Goodbye!",2025-06-16T09:48:00,Asia/Singapore,voice_interested,2025-06-24T09:00:00,voice_wants_call_back,,2025-06-24T14:00:00
+9,"User: Hello?
+Agent: Hi 
+User: Hello?
+Agent: Stefanie Jane, this is James from Kaplan Singapore. Hope you are doing well! Do you have a minute to chat?
+User: You Sorry. I'm I'm in a meeting at the moment.
+User: Can can 
+Agent: No worries at all, 
+User: you try me a bit later?
+User: Thanks. 
+User: Bye.
+Agent: Of course, Stefanie!",2025-06-16T14:00:00,Asia/Singapore,voice_wants_call_back,2025-06-16T14:00:00,voice_wants_call_back,,2025-06-16T18:00:00
+10,"User: Hello?
+Agent: Hi Fadly! This is James from Global College. Do you have a quick minute to chat?
+User: Hello?
+Agent: Hi Fadly! Can you hear me? This is James from Global College.
+User: Hi. Yes. Good. Hi, Jimson.
+Agent: Ah, close! It’s James here. So, Fadly, are you still interested in pursuing further studies with Global College?
+User: Uh, yeah. But not at the moment. We have some stuff tied up. For the next few months.
+Agent: Got it, Fadly. Sounds like you’ve got a lot on your plate right now. When do you think might be a better time for us to reconnect about this? Maybe in a few months?
+User: Yeah. Upon looking at it, maybe, uh, maybe next year.
+Agent: Alright, next year sounds good! Would you like me to reach out early 
+User: Thank you.
+Agent: You're welcome, Fadly! I'll reach out early next year to follow up. Take care and have a great day!
+User: Thank you.
+User: You too. Bye.
+User: 
+Agent: Thanks, Fadly! Bye 
+",2024-12-14T09:07:40,Asia/Singapore,voice_wants_call_back,2025-01-01T09:00:00,voice_interested,,
+11,"User: Hello?
+Agent: Hi Jennifer! This is James from Kaplan. Do you have a quick minute to chat?
+User: Yes. So is it regarding?
+Agent: It's about your interest in studying the Bachelor of Business in Accounting at Bath University. Are you still keen on pursuing 
+User: Okay.
+Agent: this degree?
+User: Yes. I am. And I believe I think Mary reached out to me that there will be an intake in May. Right?
+Agent: Yes, that's right! We have three intakes a year—January, May, and September. May could be a great time to start. Do you have any questions about the program or the next steps?
+User: So far, no. It's just because that I was pregnant, and I just recently delivered. So I didn't have time to actually go through the cost last year.
+Agent: Congratulations on your new baby, Jennifer! That’s such a special time. It’s completely understandable that things got busy.If costs are a concern, we do offer flexible payment plans and even education loans with repayment terms up to 8 years. Would you like me to arrange a call with your advisor to go over the details and help you plan?
+User: I'm I'm good.
+Agent: Got it! Are you still open to continuing your application for the May intake, or would you prefer to wait a bit longer?
+User: I think I'll a bit longer, and I'll decide later on.
+Agent: That makes sense! When would be a good time for me to check back with you—maybe in a few months or closer to the May intake?
+User: Maybe in a few months? Maybe we'll do much?
+Agent: Sure, I can follow up with you in a few months. How about I reach out around March? Would that work for you?
+User: Yes.
+Agent: Perfect! I’ll check back with you in March then. In the meantime, if you have any questions or need help, feel free to reach out. Take care, and enjoy this special time with your little one! Goodbye for now!
+User: Thank you. Bye bye.
+Agent: Left the conversation on a 
+",2024-11-08T11:57:40,Asia/Singapore,voice_wants_call_back,2025-03-01T09:00:00,voice_wants_call_back,,2025-03-03T18:00:00
+12,"User: Hello?
+User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: Uh, what is the
+Agent: Hi! This is James from Kaplan. I’m following up on your interest in pursuing a diploma with us. Are you still interested in furthering your studies?
+User: Uh, no.
+Agent: Oh, I see. Can I ask what led you to change your mind? Was it about the cost, time commitment, or something else?
+User: Oh, something else.
+Agent: Got it. Would you mind sharing what it is? Maybe I can help address your concern.
+User: I think for now, uh, look. Because there's no Time to study.
+Agent: I understand, balancing studies with everything else can be tough. If it helps, our diploma programs are designed with flexibility in mind, offering a mix of face-to-face and online learning.Would you like me to follow up with you in a few months when things might be less hectic?
+User: Okay.
+Agent: Great! When would be a good time for me to reach out again? Maybe in three months, or later in the year?
+User: Oh, we really did the
+Agent: No problem! I'll make a note to follow up with you later. If you ever have any questions in the meantime, feel free to reach out. Have a great day!
+User: Thank you.
+Agent: You're welcome! Take 
+",2025-01-04T12:46:11,Asia/Singapore,voice_wants_call_back,2025-04-01T09:00:00,voice_not_interested,,
+13,"User: Hello?
+Agent: Hi Charlene! This is James from Kaplan Singapore.
+User: Yeah. Hi.
+Agent: Hi! Do you have a quick minute to chat?
+User: You're from where, Kaplan?
+Agent: Yes, that's right! I'm from Kaplan Singapore. I’m following up on your interest in studying with us. Do you have a moment to chat?
+User: Oh, okay. Um, not now. It's actually for my son.
+Agent: Got it, no problem at all! When would be a better time for me to call back and discuss 
+User: Yes.
+Agent: this with you?
+User: That's okay. I'll reach out when I'm ready.
+Agent: Alright, no problem! Feel free to reach out anytime.
+User: Yeah. Thank you too.
+User: Yes. Thanks.
+Agent: You're very welcome! Have a great day ahead!
+User: Bye.
+Agent: Bye! Take care!
+",2025-01-04T12:46:11,Asia/Singapore,voice_no_action,,voice_unknown,,
+14,"User: Hello?
+Agent: Hi there! This is James from Kaplan.
+User: Hi.
+Agent:  Do you have a quick minute to chat?
+User: Hi, 
+Agent: Hi!
+User: Jid. Yeah.
+User: Hi, James. Can 
+Agent: Great! I just 
+User: you hear me?
+Agent: Yes, I can hear you perfectly! Thanks for confirming.
+User: Okay. 
+Agent:  Are you still interested in pursuing the Foundation Diploma with Kaplan?
+User: Oh, not quite. I mean, not in a moment, actually.
+Agent: Got it, no problem at all. When would be a better time for me to call you back?
+User: To be honest, I I just completed a a Uh, a vocational course. So
+Agent: Ah, 
+User: it might 
+Agent: I see!
+User: not be anytime near if you just want me to take up that that fundamental cough. Diploma cost. Yeah.
+Agent: Got it, it sounds like you're not looking to start something new right away. Would you like me to follow up with you in a few months, or maybe next year, to see if you're ready then?
+User: Yeah. Because the thing is, um, um, I just I just I just pick up a a new skill. So It might not work for me in terms of my current, uh, My ticket size.
+User: To 
+Agent: That makes total 
+User: actually pick up Sorry. What's that?
+Agent: That makes total sense! It sounds like you're focusing on your 
+User: Yep. 
+Agent: new skill for now, which is great. How about I check back with you in a 
+User: Yeah.
+Agent: Alright, no problem! When would be a good time for me to follow up—maybe in six months or next year?
+User: How many next year?
+Agent: Sure! Would you like me to reach out early next year, maybe around January or February? Or later in the year?
+User: Maybe they didn't know you. Yeah.
+Agent: No worries! How about I check back with you around mid-next year, say June or July? Would that work for you?
+User: Yep.
+Agent: Perfect! I'll follow up with you around June or July next year. In the meantime, if you have any questions, feel free to reach out. Have a great day ahead!
+User: Okay.
+Agent: Alright, take care and talk to you next year. Bye for now!
+",2025-01-04T12:46:11,Asia/Singapore,voice_wants_call_back,2026-06-01T09:00:00,voice_wants_call_back,,2025-07-04T18:00:00
+15,"User: Hello?
+Agent: Hi Tiffany! This is James from Kaplan. Do you have a quick minute to chat?
+User: Okay.
+Agent: Great! I just wanted to check if you're still interested in pursuing the MBA program at Warwick University?
+User: Uh, currently, no.
+Agent: Oh, I see. Can I ask what made you change your mind? Is it about the cost, time commitment, or something else?
+User: Yeah. Yeah. Because, uh, I'm the nouns because I working as a accountant. So now currently, uh, I'm taking the one of the course called, uh, this IFRS. So currently, I'm not available yet. Maybe after this call, then I may consider it.
+Agent: Got it, Tiffany. It sounds like you're focusing on your IFRS course right now, which makes sense. When do you 
+User: Yes. Because, you know, I'm as a account. That's all I this is a more relevant to me. So I study relevant to my one. But I mean, I don't know if it's not relevant, but I'm while while walking, and then the current I'm thinking that this, uh, the cost is more really And I
+Agent: I understand, Tiffany. It sounds like you're prioritizing what's most relevant to your current role as an accountant, which is totally fair. The MBA could still be a great option for the future if you're looking to expand your career opportunities.Would you like me to follow up with you 
+User: Yes.
+Agent: in a few months, or when you're done with your IFRS course?
+User: Yeah. So the one is only, like because for me, I know I start paying for your cost. So the wife keep preparing for the June exam. So I don't I think after June only, then I may think for the MBA.
+Agent: Got it, Tiffany. It makes sense to focus on your June exam first. I’ll make a note to follow up with 
+User: Yeah.
+Agent: you after June to discuss the MBA. Best of luck with your IFRS 
+User: Okay. Okay.
+Agent: Thanks, Tiffany! Take care, and 
+User: Okay.
+Agent: I’ll reach out after 
+User: Okay. K. Bye bye.
+Agent: Bye, Tiffany! All the best!
+",2024-12-07T10:58:00,Asia/Singapore,voice_wants_call_back,2025-07-01T09:00:00,voice_wants_call_back,,2025-06-07T18:00:00
+16,"User: Hello?
+Agent: Hi Siti! This is James from Kaplan. Do 
+User: Say 
+Agent: you have a quick minute to chat?
+User: again?
+Agent: Hi Siti, this is James from Kaplan Singapore. Do you have a moment to chat?
+User: Yes.
+Agent: Great! I wanted to check if you are still interested in pursuing the Bachelor of Marketing degree at Global University?
+User: It's Because I still need to check on my ABL that security, may I know when is the next Next, we'll go date to enter.
+Agent: Global University has three intakes each year—in January, May, and September. Would you like me to set up a call with your advisor to discuss this further? They can guide you on the next steps.
+User: Okay. But if were to join, most probably, I will be joining during September.
+Agent: That sounds like a good plan! September gives you plenty of time to prepare. Would you like me to schedule a call with your advisor to discuss your application and any other details?
+Agent: Just checking in—would you like me to arrange a call with your advisor to help you with the September intake and any other questions you might have?
+User: Yes, please.
+Agent: Alright! The available slots for a call with your advisor are 9 AM, 11:30 AM, or 2 PM this Friday. Which one works best for you?
+User: Actually, I'm still working that day, so we engaged. We're working alone, so I don't know one to cover for me.
+Agent: No 
+User: possible?
+Agent: No problem at all! If Friday does not work, we can find another time. Do you have a specific day or time in mind that might suit you better?
+Agent: Take your time, Siti! Let me know whenever you are ready, and we can work out a time that fits your schedule.
+User: Next.
+Agent: Got 
+User: 12:30.
+Agent: it! How about next Monday, February 17th? Let me know what time works best for you, and I can check with your advisor.
+User: Maybe around chocolate tea?
+Agent: I am not sure I understand. Could you clarify what time you mean?
+User: Just a p.
+Agent: Ah, do you mean 2 PM? If so, I can suggest that 
+User: If 
+Agent: time for next Monday, February 17th. Let me know if that works!
+User: It's now 1230
+Agent: Ah, I see! If it is around 12:30 PM that you are looking for, unfortunately, we do not have that exact time available. The closest available slots are 11:30 AM or 2 PM. Would either of those work for you?
+User: Okay. 11:30.
+Agent: Perfect!
+User: 11:30.
+Agent:  I will schedule the call for 11:30 AM this Friday, February 14th. You will receive a calendar invite once it is confirmed. The advisor will give you a call then, so just keep an eye out for it.
+
+Do you have any other questions for now?
+User: Location.
+User: Location.
+Agent: The call will be over the phone, so the advisor will ring you directly at 11:30 AM this Friday. Just make sure your phone is available at that time!Anything else I can help you with?
+User: That's all.
+Agent: Great! The advisor will call you at 11:30 AM this Friday. Have a wonderful day, Siti!
+",2025-02-12T14:03:23,Asia/Singapore,voice_interested,2025-02-14T11:30:00,voice_interested,2025-02-14T11:30:00,
+17,"User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: You you are from where, I guess? Sorry.
+Agent: No worries! I’m James, calling from Kaplan Singapore. You had shown interest in studying with us. Do you have a moment to chat?
+User: Oh, yes. Yes. Yes. Yes. Oh, but but now I'm actually engaged. Maybe I call you back, like, See, Uh, next week. Okay?
+Agent: Got it! When next week would be 
+User: Okay. Thank 
+Agent: a good time for me 
+User: you.
+User: Uh, next week, uh, maybe maybe next next Friday at at about 12? Let's say 12 or 1? 12 within 12 to 1.
+Agent: Thanks for letting me know! Unfortunately, I don’t have 
+User: Okay.
+Agent: a slot exactly at 12 or 1 next Friday, but I can offer 11:30 AM instead. Would that work for you?
+User: Should be good now.
+Agent: Great! I’ll arrange for your advisor to call you next Friday at 11:30 AM. You’ll get a calendar invite 
+User: Okay. 
+Agent: once it’s confirmed.
+User: Sure.
+User: Okay then. Thank you so much. Bye.
+",2024-12-27T08:08:21,Asia/Singapore,voice_interested,2025-01-03T11:30:00,voice_wants_call_back,,2025-01-03T11:30:00
+18,"User: No. Hello?
+Agent: Hi Carrie! This is James from Kaplan. Do you have a quick minute to chat?
+User: Yep.
+Agent: Great! I wanted 
+User: Yes.
+Agent: to check if you're still interested in pursuing a Diploma in Education & Social Sciences with James Cook?
+User: Social, Pfizer. This is did I apply for it actually?
+Agent: It sounds like you're interested in the Social Sciences Diploma, but you're unsure if you've already applied. I don’t have access to your application status, but I can help schedule a call with your advisor to confirm that for you. Would you like me to do that?
+User: Okay. That will be good. Yes.
+Agent: Perfect! We have a few available slots for a call with your advisor: 9 AM, 11:30 AM, or 2 PM next Monday, December 30. Which one works best for you?
+User: Let me see. Monday, um, 7:30 would be fine.
+Agent: The closest available slot to 7:30 PM on Monday is 2 PM. If that doesn’t work, I can check with the advisor if 7:30 PM is possible. Would you like me to do that?
+User: No. No. 2 PM is fine also.
+Agent: Got it! I'll schedule the call for 2 PM next Monday, December 30. Once it's confirmed, you'll receive a calendar invite. The advisor will ring you at that time, so just keep an eye out for the call.
+
+Do you have any other questions 
+Agent: in the meantime?
+User: Okay.
+User: No. No. Not at this moment.
+Agent: Thanks, 
+User: Thank you so much.
+User: Okay. 
+Agent: Thanks 
+User: Bye.
+Agent: Thanks for your time, Carrie! Have a great day ahead. 
+User: Yes. 
+Agent: Bye!
+User: This Okay. Bye.
+",2024-12-27T09:29:50,Asia/Singapore,voice_interested,2024-12-30T14:00:00,voice_interested,2024-12-30T14:00:00,
+19,"User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: I'm sorry. Can you give me a call in at another 1 hour?
+Agent: Sure, I can call you back in an hour. Speak to you then!
+User: Thank you. Yep. Thank you. Bye bye.
+Agent: No problem at 
+",2025-02-17T10:12:10,Asia/Singapore,voice_wants_call_back,2025-02-17T11:00:00,voice_wants_call_back,,2025-02-17T11:12:10
+20,"User: Hello?
+Agent: Hi Joel! This is James from PSB Academy Singapore.
+User: Yeah.
+Agent:  Do you have a quick minute to chat?
+User: I'm sorry. I'm in a meeting for training now.
+Agent: No problem at all! When would be a better time for me to call you back?
+User: After 7,
+Agent: Got it! I’ll give you a call after 7 PM today. Have a great training session, Joel!
+User: Thank you.
+Agent: You're welcome! Talk to you later, Joel!
+",2024-11-28T10:10:46,Asia/Singapore,voice_wants_call_back,2024-11-28T19:00:00,voice_wants_call_back,,2024-11-28T19:00:00
+21,"Agent: Hello, this is Santiago
+User: Yes?
+Agent: Hello, this is Santiago, the enrollment advisor at Global University. I'm following up on your interest in the online Bachelor's Degree in Linguistics. Are you still interested in this program?",2024-11-28T10:10:46,America/Mexico_City,voice_immediate_hangup,,voice_unknown,,
+22,"User: Hello
+Agent: Hello, am I speaking with",2024-11-28T10:10:46,America/Mexico_City,voice_immediate_hangup,,voice_immediate_hangup,,
+23,"User: Hello?
+Agent: Hi Amelia! This is James from Kaplan. Do you have a minute to chat?
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_unknown,,
+24,"User: Hello?
+User: Hello? 
+Agent: Hi there! This is James from 
+User: Hello?
+Agent: Kaplan. Do you have a 
+Agent: minute to chat?
+User: Who?
+Agent: I am James from Kaplan Singapore.
+User: Oh, 
+Agent:  You had previously enquired about studying 
+User: yes.
+Agent: Great! Are 
+User: Oh, no. Uh, can I call you back One sec? Hold on. Hold on. I'm receiving another call for work. Uh, I need to pick that up first.
+User: Hold on. 
+Agent: you 
+User: I'll call you back.
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_wants_call_back,,2025-02-17T18:00:00
+25,"User: Hello?
+Agent: Hi Lim Boon, this is James from Kaplan. Do you have a minute to chat?
+User: Kathleen yes? Yes. Tell me.
+Agent: Actually, it is James from Kaplan! I wanted to check if you are still interested in pursuing the Bachelor in Accounting degree at Global University?
+User: I'm not. I am looking for my girlfriend, uh,
+Agent: No worries, Lim Boon. If you are not interested in the program anymore, that is perfectly fine. If you ever change your mind or have any questions in the future, feel free to reach out. Have a great day!
+",2025-02-17T10:12:10,Asia/Singapore,voice_unknown,,voice_not_interested,,
+26,"Agent: Hello, is this Patricia?
+User: (inaudible speech)
+Agent: I'm Sofía, an advisor at Global University. I'm following up on your interest in the Bachelor's degree in Fine Arts in the 
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_unknown,,
+27,"User: Hello?
+Agent: Hi Annie! This is James from Kaplan. Do you have a minute to chat?
+User: Thank you
+Agent: You're 
+User: Hello?
+Agent: Hi Annie! This 
+User: Hello?
+Agent: Hi 
+User: Yeah.
+Agent: Annie! It's James from Kaplan. Do you have a minute to chat?
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_immediate_hangup,,
+28,"User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: (inaudible speech)
+Agent: No 
+User: Only 
+Agent: worries if 
+User: one's currently working.
+Agent: Got it! Are you still interested in pursuing 
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_unknown,,
+29,"User: Hi. Henry speaking.
+Agent: Hi Henry! This is James from Kaplan.
+User: Hi.
+Agent:  Do you have a quick minute to chat?
+Agent: Hi 
+User: Alright.
+Agent: Grace! I just wanted to check if you're still interested in pursuing a degree with Aston University through Kaplan?
+Agent: Just to let you know, I’m here to answer any questions you might have or help you schedule a consultation with one of our advisors. Do you have any questions about the program 
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_unknown,,
+30,"User: It's
+Agent: Hi Siak Peng! This is James from Brighton University. Do you have a quick minute to chat?
+User: Hello?
+Agent: Hi Siak Peng! This is James from Brighton University. I’m following up on your interest in studying with us. Do you have a moment to chat?
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_immediate_hangup,,
+31,"User: Hello?
+Agent: Hi Halimah! This is Jessica from Kaplan. Do you have a quick minute to chat?
+User: Yes.
+Agent: Great! I 
+User: Hello?
+Agent: wanted to check if you are still interested in pursuing the Bachelor of Arts in Business and Finance degree 
+User: Oh, sorry. I I'm currently doing my degree under Kaplan already. I've actually submitted my application a long ago. For a different degree course.
+Agent: Oh, I see! Thanks for letting me know. It sounds like you are already 
+User: Yes. Okay. Thanks.
+User: Sorry?
+Agent: on your way with Kaplan. If you have any questions or need assistance, feel free to reach out. Have a great day, Haifa!
+",2025-02-17T10:12:10,Asia/Singapore,voice_no_action,,voice_no_action,,
+32,"User: Hello?
+Agent: Hi there! This is James  Do you have a quick 
+User: Hello?
+Agent: from Kaplan.minute to chat?
+Agent: Hi! This is James from Kaplan. Do you have a moment to chat?
+User: Hi. Uh, yes?
+Agent: Great! I wanted to check if you are still interested in pursuing the Business Diploma at Kaplan?
+User: Yes. Yes. I am.
+Agent: That is wonderful to hear! Do you have any questions about the program or anything else I can help with?
+User: I know. Uh, I think I both received really. So I will just look at it and get back to you.
+Agent: No problem at all. Are you still open to continuing your application? If so, I can help schedule a call with a Kaplan advisor who can assist you with it.
+User: Not yet.
+User: Let me consider first. Then if anything,
+Agent: Of course, take  If you have any  Is there 
+User: Hello?
+Agent: your time to consider.questions or need assistance in the future, feel free to reach out.a good time for me to check back with you?
+User: No. It's okay. I'll reach out to you.
+Agent: Alright, that sounds good. Thank you for your time, and feel free to reach out whenever you are ready. Have a great day!
+",2025-02-17T10:12:10,Asia/Singapore,voice_no_action,,voice_interested,,
+33,"User: Hi.
+Agent: Hi Lionel! This is Jessica from Global University. Do you have a minute to chat?
+User: Yeah. Yeah. I, yeah, can.
+Agent: Great! I wanted to check if you are still interested in pursuing the Bachelor in Engineering degree at Global University?
+User: Yeah. Electrical engineering, actually. Yeah.
+Agent: Got it! So you are interested in the electrical engineering area. I am here to answer any questions you might have or help you schedule a consultation with one of our advisors. Do you have any questions about the program or anything else?
+User: Uh, for them, The intake of August, when can I start applying?
+Agent: The next intake after August would be in September, as we have three intakes a year—January, May, and September. Your advisor can guide you on when to start applying and the steps involved. Would you like me to set up a call with them to discuss this?
+User: Uh, I think I'm in contact with Joanne. Serge be fine.
+Agent: Alright, I will make a note for Joanne to follow up with you about the September intake. Is there anything else you would like me to assist you with?
+User: Uh, for now, no.
+User: Thank you.
+Agent: You are very welcome, Lionel! Have a great day, and Joanne will 
+User: Thank 
+Agent: be in touch 
+User: you. Thank you.
+Agent: You are very welcome, Lionel! Have a great day ahead.
+",2025-02-17T10:12:10,Asia/Singapore,voice_no_action,,voice_interested,,
+34,"User: Hello?
+Agent: Hi 
+User: Hello? 
+Agent: Sharon! This is Jessica from Kaplan. Do you have a minute to chat?
+User: Hi. Oh, uh, yes. Can
+Agent: Great! I just wanted 
+User: Hello? 
+Agent: to check if you are still interested 
+User: Okay.
+Agent: Are you still interested in pursuing the Psychology degree with Northern University?
+User: Oh, uh, no.
+Agent: Oh, I 
+User: Because I'm actually looking for, uh, like, media communication
+User: course.
+Agent: Northern University does offer a Bachelor's degree in Mass Communication. Would you like me to help you schedule a call with an advisor to discuss this programme further?
+User: Okay. Thank you. But, actually, maybe no need because I think I'm in contact with one of your program advisers. Her name is Asha.
+Agent: Ah, I see! That is great that you are already in touch 
+User: Yeah.
+Agent: with Asha. She will be the best person to guide you further. If you need anything else or have more questions, just let me know, okay?
+User: Okay. Yeah.
+User: Ken, I'll also reach out to you on Email it? Yes.
+Agent: Yes, absolutely! Asha 
+User: Yeah. 
+Agent: or someone from the 
+User: Okay.
+Agent: Alright, Sharon. Take care and have a great day! Bye!
+User: Thank you. You too. Bye.
+Agent: Sharon said goodbye, so I ended the call politely.",2025-02-17T10:12:10,Asia/Singapore,voice_no_action,,voice_no_action,,
+35,"User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: Yes.
+User: Yeah. 
+Agent: Great! I wanted 
+User: Hi. Hello?
+User: Yes?
+Agent: Hi again! I just wanted to check if you are still interested in pursuing the Diploma in Business Management with Logistics at Kaplan?
+User: Oh, yeah. Actually, uh, I've already, uh, talked with one of your consultant. His name is Nick Keith. I'm not mistaken.
+Agent: Got it! Since you have already spoken with Nick Keith, is there anything else you would like to ask or clarify? I can also make a note for him to follow up with you if needed.
+User: Oh, actually, he really follow-up with me. I just told him that I won't uh, work. I'll start my class on August, sir.
+Agent: Thanks for letting me 
+User: Alright.
+Agent: know! It sounds like you have everything sorted out for now. If you need any further assistance or have questions before August, feel free to reach out. Have a great day ahead!
+User: Okay.
+User: Alright. Thank you.
+Agent: You are welcome! Take care and have a great day ahead!
+",2025-02-17T10:12:10,Asia/Singapore,voice_no_action,,voice_no_action,,
+36,"Agent: Hello,
+User: Okay?
+Agent: I'm speaking with Damian?
+User: Yes?
+Agent: Hello,
+User: Who?
+Agent: I'm 
+User: Damian
+Agent: Sofia,
+User: Colt, here to serve you. Tell me.
+Agent: Nice to meet you, Damian! I'm Sofia, an advisor at 
+User: Tell me.
+Agent: the University 
+User: Yes.
+User: Miss Sofia, please, I can't hear you well.
+Agent: Sure. I'm calling to follow up on your interest in the online Bachelor's Degree in Sports Science.
+User: I'm already enrolled here in the state of Virginia. Very kind.
+Agent: Understood, Damian! Thank you very much for letting me know. If you ever need anything else, don't hesitate to contact us. I wish you much success in your studies. Have a great day!
+User: Thank you, very kind. Thank you.
+User: Thank you.
+",2025-02-17T10:12:10,Asia/Singapore,voice_not_interested,,voice_no_action,,
+37,"User: You know how bad that one goes?
+Agent: I am not sure I understand what you mean. Could you clarify?
+User: 3. Well, so is this I Hello?
+Agent: Hi John, this is Jessica from Kaplan. Do you have a minute to chat?
+User: Yeah. Uh, yes. I have.
+Agent: Great! I wanted to check if you are still interested in pursuing a degree programme with Southwest University?
+User: Actually, I've been I've been enrolling into the into the course.
+Agent: That is wonderful to hear! Since you are already enrolled, 
+User: Yeah. 
+Agent: do you have any questions 
+User: Uh-huh.
+User: K. 
+Agent: Sure! What questions do you have? I will do my best to help.
+User: I Test No questions, usually. I'm not sure why if I come there this question you can So I'm not sure why this call why this call about that.
+Agent: Thanks for letting me know! This call was just to follow up and check if you needed any assistance or had any questions about your enrolment. Since you are already enrolled and do not have any questions, I will not take up more of your time.If anything comes up later, feel free to reach out. Have a great day!
+User: Alright. Thank you.
+User: Hi. It's going to take up. Uh,
+",2025-02-17T10:12:10,Asia/Singapore,voice_not_interested,,voice_no_action,,
+38,"User: Hello?
+Agent: Hi Lilian! This is James from Kaplan. Do you have a quick minute to chat?
+User: For what?
+Agent: I am following up on your interest in studying the Masters in Applied Mathematics in
+User: Uh, not 
+Agent: University College 
+User: yet ready. Thank you.
+Agent: No problem at all! When would be a better time for me 
+User: bye. Yeah. They're already Have it ready. Thank you.
+Agent: to call you back?
+",2025-02-17T10:12:10,Asia/Singapore,voice_immediate_hangup,,voice_not_interested,,
+39,"User: Hello?
+Agent: Hi Anthony! This is Jessica from Kaplan. Do you have a quick minute to chat?
+User: Uh-huh.
+User: Yeah.
+Agent: Great! I wanted to check if you are still interested in 
+Agent: Awesome! Are there any questions you have about the programme, or anything you are unsure about? I can help answer or set up a consultation with one of our advisors.
+User: Oh, okay. I actually, uh, they just load up CC.
+Agent: Ah, are you asking about credit card payment options? If so, yes, we do offer 0% installment payment plans through credit cards. Does that help? Or do you have more questions?
+User: Hello?
+Agent: Yes, I  Just 
+User: I I 
+Agent: am here!checking, did you have 
+User: did ask about the recall, the, uh, payment of the school fees.
+Agent: Ah, got  For school 
+User: I 
+Agent: it!fees, you 
+User: didn't ask about it.
+Agent: Oh, my bad! No worries. Do you have any other questions about the programme or anything else?
+User: No. I actually look at CCR.
+Agent: Ah, I see. Are you referring to credit transfer or something else? Could you clarify a bit?
+User: I think you don't care what I mean. I mean, I was looking just looking, and uh, seeing the brochure on this one.
+Agent: Got it, you were just browsing the brochure. No problem at all! Are you still open to continuing your application for the  If so, I can help set up a call with one of our 
+User: Yeah.
+Agent: programme?advisors to guide you through the next steps.
+User: I'm still considering that.
+Agent: That is perfectly fine! Would you like me to set up a call with an advisor so they can help answer any questions or concerns while you are considering?
+User: I think currently in offers.
+Agent: Ah, are you asking about any current offers or financial assistance? Yes, we do have education grants of up to $4,000 to help with course fees. There are also flexible payment options like education loans and 0% installment plans.Would you like me to arrange a call with an advisor to go over this in more detail?
+User: Uh, I think I already know. Thank you.
+Agent: No worries! Since you are still considering, would you like me to schedule a call with an advisor just in case you have more questions later?
+User: Uh, I think no for now. Thank you.
+Agent: Alright, no problem at all! If you need help later, just reach out. Have a great day, Anthony! Take care!
+User: Thank you.
+Agent: No 
+User: Alright.
+Agent: problem, take care and have a great day!
+",2025-02-17T10:12:10,Asia/Singapore,voice_not_interested,,voice_unknown,,
+40,"User: Hello?
+Agent: Hi Anthony! This is Jessica from Kaplan. Do you have a quick minute to chat?
+User: Hello?
+User: Hello?
+Agent: Hi Anthony! This is Jessica from Kaplan. Can you hear me? Do you have a quick minute to chat?
+User: Yes.
+User: Yes. I do.
+Agent: Great! I wanted to check if you are still interested in pursuing the Social Work and Counselling degree at Bath University?
+User: Yes. Yes.
+Agent: That is wonderful to hear! Do you have any questions about the programme, or anything else on your mind? I am here to help.
+User: Um, at the moment, I don't. It's more of when is um, the deadline for the applications?
+Agent: The specific intake dates and deadlines can vary by programme. I can set up a call with your advisor who can provide you with the exact details. Would you like me to arrange that for you?
+User: I think no need. It's okay.
+Agent: Alright, no problem! Are you still open to continuing your application for the programme?
+User: Yes.
+Agent: That is great! I can help you schedule a call with one of our advisors to guide you through the next steps. Would you like me to suggest some available times?
+User: I think it's alright. I think I can manage.
+Agent: Got it, Anthony. If you need any help or have questions later, just let us know. Is there anything else you would like to ask before we wrap up?
+User: No. I think it's okay for now.
+Agent: Alright, Anthony. Thanks for your time! If you have any questions later, feel free to reach out. Have a great day ahead!
+User: Thank you.
+Agent: You are welcome! Take care and have a good day!
+",2025-02-17T10:12:10,Asia/Singapore,voice_interested,,voice_interested,,
+41,"User: Hello?
+Agent: Hi Xin Hui! This is James from Kaplan Singapore. Do you have 
+User: 5 o. Sorry?
+Agent: No worries! I was just saying I’m James from Kaplan Singapore. Do you have a quick minute to chat?
+User: Oh, yes.
+Agent: Great! I wanted to check if you're still interested in pursuing the Bachelor of Business 
+User: Sure.
+Agent: in Accounting degree at Manchester University?
+User: Yes. I'm still interested.
+Agent: That's wonderful to hear! I'm here to answer any questions you might have or help schedule a consultation with one of our student advisors. Do you have any questions about the program or anything else?
+User: Yeah. I was thinking about taking work study. Is there such a thing in, um, this program?
+Agent: We don’t have a specific work-study program, but Manchester University offers flexible study options, like a mix of face-to-face and online lessons. This makes it easier to balance work and studies.If you'd like, I can set up a call with your advisor to discuss this in more detail. Would that help? Or do you have other questions?
+User: Uh, So far, no. But, um, the intake is January April. Right?
+Agent: Close! The intakes are in January, May, and September. Does January work for you, or were you thinking of a later intake?
+User: Uh, I was thinking of a later intake because I want to, uh, secure a job.
+Agent: That makes sense! May or September could be good options for you then. Would you like me to set up a call with your advisor to discuss your plans and timeline further?
+User: Yeah. Sure.
+Agent: Perfect! We have a few slots available next Monday, December 2—9:00 AM, 11:30 AM, or 2:30 PM. Which one works best for you?
+User: December sorry. December 9, when again?
+Agent: Ah, December 9 is the Monday after next. I don’t have the exact slots for that day yet, but I can check with the advisor. Would you like me to suggest a time for that day, or do you have a specific time in mind?
+User: Is it better if she, uh, if it's a help, uh, like, just ask her to text me on WhatsApp.
+Agent: Got it! I’ll let the advisor know to reach out to you via WhatsApp instead. They’ll follow up to discuss your plans and timeline.Is there anything else you’d like to ask or clarify?
+User: No. It's okay.
+Agent: Alright, Xin Hui! The advisor will reach out to you on WhatsApp soon. Thanks for your time, and I wish you all the best with your plans. Have a great day!
+User: Alright. Thank you. Bye bye.
+Agent: You're very welcome, Xin Hui! Bye-bye, and 
+",2024-11-28T10:12:10,Asia/Singapore,voice_interested,,voice_wants_whatsapp_sms_follow_up,,
+42,"User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: Sorry. What do you say?
+Agent: No worries! I’m James from Kaplan. Do you have a minute to chat?
+User: You need to chat?
+Agent: Yes, just a quick chat! I wanted to check if you're still interested in pursuing a Diploma with Kaplan. Is now a good time?
+User: (inaudible speech)
+Agent: Hello? Are you still there? Is now a good time to chat?
+User: Yeah.
+User: Yeah. Yeah. 
+Agent: Great! Are 
+User: I can.
+Agent: Awesome! Are you still interested in pursuing a Diploma with Kaplan?
+User: Sorry. No. I don't never interested to diploma.
+Agent: Got it, thanks for letting me know! If you don’t mind me asking, what made you decide against it?
+User: Okay. We can, uh, text, uh, WhatsApp?
+Agent: Sure, I’ll let your advisor know to follow up with you on WhatsApp. Have a great day!
+User: Okay. So you can give your WhatsApp that's the WhatsApp number.
+Agent: I don’t have a direct WhatsApp number, but your advisor will reach out to you on WhatsApp soon. Let me know if there’s anything else I can help with!
+User: Actually, we can set the what's the if if you give me your WhatsApp number, I can set it.
+Agent: I don’t have a personal WhatsApp number to share, but your advisor will message you directly on WhatsApp to assist you. They'll be in touch soon! Let me know if there’s anything else you’d like help with.
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_whatsapp_sms_follow_up,,voice_wants_whatsapp_sms_follow_up,,
+43,"User: Hello?
+Agent: Hi Jim! This is James from Global University. Do 
+User: Hello?
+Agent: you have a quick minute to chat?
+User: What is this about?
+User: Hello?
+Agent: I’m following up on your interest in studying the Bachelor of International Business at Global University. Are you still interested in pursuing this degree?
+User: Um, not at the moment. Thank you.
+Agent: No problem, Jim. Can I ask what made you change your mind? If it’s about costs or time, I’d be happy to share some options that might help.
+User: Could you just WhatsApp me, please? Um, currently, I'm I'm not available to to to you on online. Yeah.
+Agent: Got it, 
+User: it let me Thank you. Bye bye.
+Agent: No problem, Jim. I'll have my colleague 
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_whatsapp_sms_follow_up,,voice_wants_whatsapp_sms_follow_up,,
+44,"User: Hello?
+Agent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?
+User: Hello?
+Agent: Hi! This is James from Kaplan. Can you hear me?
+User: Oh, 
+Agent:  Do you have a moment to chat?
+User: yeah.
+Agent: Great! I just wanted to check if you are still interested in pursuing a Diploma with Kaplan?
+User: Uh, no.
+Agent: Oh, I see. May I ask what led you to change your mind? Was it something like the cost, time commitment, or something else?
+User: Time.
+Agent: I understand, balancing studies with other commitments can be challenging. The good thing about Kaplan is that we offer flexible learning options, like a mix of face-to-face and online lessons, which might help with managing your time.Do you think this flexibility could work for you?
+User: Online online, the process is how long?
+Agent: You can complete 8 modules in just 8 months for our Diploma programmes. After that, you can even get direct entry into Year 2 of over 300 Bachelor's Degree programmes. Does that sound manageable for you?
+User: Okay.
+User: Can you 
+Agent: That is great to 
+User: send me WhatsApp details about that?
+Agent: Sure, I will let your advisor know to follow up with you on WhatsApp with the details. Is there anything else you would like to know?
+User: (inaudible speech)
+Agent: Alright, 
+User: Uh, not 
+Agent: I will have your 
+User: yet.
+Agent: No problem at all! If you have any other questions later, feel free to ask. Thank you for your time, and have a great day!
+User: Okay. Thank you.
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_whatsapp_sms_follow_up,,voice_wants_whatsapp_sms_follow_up,,
+45,"User: Hello?
+Agent: Hi 
+User: Hello? 
+Agent: Tiffany! This is James from Bath University. Do you have a quick minute to chat?
+User: Sorry?
+Agent: No worries! Hi Tiffany, this is James from Bath University. Do you have a quick moment to chat?
+User: Mhmm. No. Having lunch right now.
+Agent: Got it! When would be a better time for me to call you back?
+User: Uh, can Can you drop me a WhatsApp instead?
+Agent: Sure, I'll let your advisor know to follow up with you on WhatsApp. Have a great lunch, Tiffany!
+User: Uh-oh. Okay. Thank you.
+Agent: You're welcome, Tiffany! Take care and have a great day!
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_whatsapp_sms_follow_up,,voice_wants_whatsapp_sms_follow_up,,
+46,"User: Hello?
+Agent: Hi 
+User: Hello? 
+Agent: Tsui Wong, this is James from Kaplan. Do you have a minute to chat?
+User: Yeah. Yeah. Hi.
+Agent: Great! I wanted to check if you are still interested in pursuing the Digital Systems degree at Centerview University?
+User: Oh, yes. Yes. Uh, but can you what's that mean instead? Right now, I'm I'm actually busy. Or you can send me an email.
+Agent: No problem at all! I will let your advisor know to follow up with you via email. Is there a better time for 
+User: Thank 
+Agent: me to call 
+User: you so much.
+Agent: You are very welcome! Have a great day ahead!
+Agent: If you have 
+User: Hello?
+Agent: any other questions later, feel free to reach out. Take care and goodbye!
+User: You have to go in Behi.
+Agent: I am sorry, I did not quite catch 
+User: (inaudible speech)
+Agent: Could you clarify that for me? I want to make sure I understand you correctly.
+User: Hi there. This is, uh, Hyder.
+Agent: Hi 
+User: I want the chicken. Right?
+Agent: I think there might be some confusion. I am James from Kaplan, here to assist with your interest in studying at Centerview University. Could you let me know if you are still interested in pursuing further studies?
+User: I'm interested in eating chicken rice.
+User: eating chicken rice.
+Agent: That sounds delicious! If you have any questions about studying at Centerview University or need help with your application, 
+User: Oh, shit. There's Are you AI generated?
+Agent: Yes, I am an AI, but I am here to help you connect with our human advisors or answer any 
+User: Oh, 
+Agent: questions you 
+User: hot. What? What's going on? Look at this.
+Agent: It seems like there might be some confusion.
+User: Please ask your please ask
+Agent: It seems like now might not 
+User: consultant to email me
+Agent: It seems like now might not be the best time to chat. I will let your consultant know to email you instead. Have a great day!
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_email_follow_up,,voice_wants_email_follow_up,,
+47,"User: Hello?
+Agent: Hi Sandy! This is Jessica
+User: K. Sorry?
+Agent: Oh, sorry about  I am Jessica  Do you have a quick 
+User: Who?
+Agent: that!from Kaplan.minute to chat?
+Agent: I am 
+User: Oh, uh, I can also get an email
+Agent: Jessica from Kaplan! I can definitely arrange for someone to send you an email. Would you like me to make a note for your advisor to follow up that way?
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_email_follow_up,,voice_wants_email_follow_up,,
+48,"Agent: Hello, is this Mandy?
+User: Okay, okay?
+Agent: Hello, Mandy! I'm Sofía, an advisor at UVE University. I'm following up on your interest in the online Bachelor's Degree in Education. Are you still interested in this program?
+User: Can I give you some information?
+Agent: Sure, what information do you need? If it's something specific, I can connect you with an advisor who can help you.
+User: More like costs, and his name is?
+User: Um, the program, well, the
+Agent: The
+User: subjects.
+Agent: Oh, I understand! The program is called online Education. Regarding costs, I don't have that exact information, but I can connect you with an advisor who can explain everything about the costs and available scholarships. Does that seem okay?
+User: There.
+User: Um, I'd like to keep that information in my email, but okay?
+Agent: Understood, Mandy! We'll send you an email with the information, and an advisor will follow up with you. Thank you very much for your time. Have a great day!
+User: Thank you, thank you.
+",2024-11-28T10:12:10,Europe/Berlin,voice_wants_email_follow_up,,voice_wants_email_follow_up,,
+49,"User: Hello?
+Agent: Hi Florence! This is Jessica from Kaplan. Do you have a minute to chat?
+User: Uh, I do not know him. Can you, like, email me the details?
+Agent: Sure, we have your email on our records, and my 
+User: Yeah. 
+Agent: colleague will 
+User: You're right.
+User: Okay, Ken. Ken will do. Thank you.
+User: Thanks. Bye.
+Agent: Thank you, Florence. Have 
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_email_follow_up,,voice_wants_email_follow_up,,
+50,"User: Hello?
+Agent: Hi Hubert! This is James from Kaplan Singapore.
+User: Yes.
+Agent:  Do you have a quick minute to chat?
+User: Uh, yes.
+Agent: Great! I wanted to check if you're still interested in pursuing a degree with Bloomberg University through Kaplan?
+User: Yes. Actually, yeah, I need to do a team.
+User: Hello?
+Agent: Yes, I'm here! It sounds like you're still interested. Do 
+User: Hello?
+Agent: you have any questions about the program or anything else I can help with?
+User: Okay. Can you do me a favor? Can you send me the prospectus of the the cost again?
+Agent: I can’t send it directly myself, but I’ll let my colleague know to email you the prospectus with the course details. Is there anything else you’d like me to include in the follow-up?
+User: Okay. Can I just check with you? Is the call commencing?
+Agent: If you're asking about a consultation call with an advisor, I can help schedule one for you. Would you like me to arrange that?
+User: Okay. Can you get your colleague to send the the cost informations first? Then I take a look.
+Agent: Got 
+User: if I got any queries, I will email you, then you have to arrange for, give someone to call me back.
+Agent: That works perfectly! I'll make sure my colleague sends over the cost 
+User: Okay.
+Agent: information for you to review. If you have any questions after that, 
+User: K.
+Agent: just email us, and we’ll arrange for someone to call you back. Anything else I can help with for 
+User: Sure. Okay.
+Agent: Great! I'll make sure the information gets sent to you. Have a wonderful day, Hubert!
+User: (inaudible speech)
+",2024-11-28T10:12:10,Asia/Singapore,voice_wants_email_follow_up,,voice_wants_email_follow_up,,
+51,"Agent: Hello, is this Joan speaking?
+User: No, you're mistaken.
+Agent: Sorry to bother you. Have a good day.
+User: Yes.
+Agent: See you later!
+User: Thanks, too. See you later.
+Agent: See you later.
+",2024-11-28T10:12:10,Asia/Singapore,voice_wrong_number,,voice_wrong_number,,
+52,"User: And try again.
+Agent: Hi 
+User: call 
+Agent: Andy 
+User: couldn't be connected.
+User: check the number and try again.
+",2024-11-28T10:12:10,Asia/Singapore,voice_wrong_number,,voice_immediate_hangup,,
+53,"User: Hello?
+Agent: Hi 
+User: Hello? 
+Agent: Ahmad! This is James from Kaplan. Do you have a quick minute to chat?
+User: You're from where?
+Agent: Hi 
+User: Hello?
+Agent: Hong! I'm James from Kaplan Singapore. I’m following up on your interest in studying at Murdoch University. Do you have a moment to chat?
+User: I think it got a wrong number. You know? I never signed anything there.
+Agent: Oh, I see! Thanks for letting me know, Ahmad. I'll make a note of that.
+User: Okay. 
+Agent:  Have a great day!
+User: Okay.
+User: you.
+Agent: Thanks for 
+",2024-11-28T10:12:10,Asia/Singapore,voice_wrong_number,,voice_wrong_number,,
+54,"User: Julio, buenas tardes.
+Agent: Hi, I think there was a mix-up. Am I speaking to Joseph?
+User: No, número equivocado.
+Agent: Gracias por avisarme. Que tengas un buen día. ¡Hasta luego!
+",2024-11-28T10:12:10,America/Chicago,voice_wrong_number,,voice_wrong_number,,
+55,"Agent: Hello, is this Vivian speaking?
+User: You're mistaken, miss.
+Agent: Oh, excuse the 
+Agent: trouble. 
+User: You're mistaken, I've been asked several times about this person, I don't know.
+User: I've had this number for two years.
+User: I know what's going on, what's going on there.
+Agent: I'm very sorry for the 
+User: Yes, 
+Agent: confusion and the inconvenience 
+User: right away.
+Agent: I understand your 
+User: Well, yes, dude, why are you asking me? That's why Vivian C.P. is here.
+
+",2024-11-28T10:12:10,America/Chicago,voice_wrong_number,,voice_wrong_number,,
+56,"User: And forward it to voice mail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.
+Agent: Hi Angela, this is James from Kaplan. I was calling to follow up on your interest in studying at Northern University. If you're still interested, I’d love to help answer any questions or schedule a call with one of our advisors. Feel free to let us know a good time to reach you. Have a great day!
+",2024-11-28T10:12:10,Asia/Singapore,voice_voice_mail,,voice_voice_mail,,
+57,"User: No call has been whether it's a voice mail. Person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.
+Agent: Hi Agatha, this is James from Kaplan. I was calling to follow up on your interest in studying at Aston University. If you're still interested, feel free to give us a call back or let us know a good time to reach you. Have a great day!
+",2024-11-28T10:12:10,Asia/Singapore,voice_voice_mail,,voice_voice_mail,,
+58,"User: Para Por 
+Agent: Hello, is this 
+User: favor, deja tu mensaje después del trono. Si necesitas volver a grabar, marca el signo de número y espera instrucciones.
+Agent: Hi Matthew, this is Sofia, I'm calling from ABC University. You've expressed interest in our Bachelor's Degree in Business, and I'm calling to find out if you'd like to consult with your advisor. I'll send you an email; you can search for ABC University in your inbox to respond. Have a nice day!",2024-11-28T10:12:10,Asia/Singapore,voice_voice_mail,,voice_voice_mail,,
+59,"Agent: Hi 
+User: The 
+Agent: there, 
+User: Personality of Belts is Smith with Hickbar.
+Agent: Hi! This is James from Murdoch University. Do you have 30 seconds to chat?
+
+I wanted to check if you’re still interested in the master’s in Business or if you had any questions about our programs? Let me know how I can help!
+User: To Clarebons, the end
+Agent: Thanks for letting me know! Just to confirm, are you no longer interested in the master’s program at Murdoch 
+User: As you
+Agent: Just to clarify, are you saying you’re not interested in the program anymore, or did you want to continue chatting about your options?
+User: (inaudible speech)
+Agent: No worries! If you’d like to talk more about the master’s program or have any questions, just let me know. If you’re not interested right now, that’s 
+",2024-11-28T10:12:10,Europe/London,voice_voice_mail,,voice_unknown,,
+60,"User: Mail from Nu Ziff 3 ing zebra
+Agent: Hi, am I speaking to James?
+User: 
+Agent: Hi, this is Anna, an A.I. from Global College. I'm following up on your enquiry about the Fine Arts degree. Do you have 90 seconds to speak?
+User: for student. Want to Tootstray.
+Agent: Got it! I'm here to help.
+User: 23
+Agent: It sounds like you might be interested in the Fine Arts degree 
+User: for student, Want to new Interspeek. 23
+Agent: I understand. Are you looking to schedule a consultation 
+User: for student, Want to Tootstray.
+Agent: I see, you might be interested 
+User: Touch 3.
+Agent: It sounds like you might be interested in scheduling a 
+User: 2 bereft is for Stuart. The for Bending Ward",2024-11-28T10:12:10,Europe/London,voice_voice_mail,,voice_unknown,,

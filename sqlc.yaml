@@ -1,0 +1,18 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    schema: "db/migrations"
+    queries:
+      - pkg/classifications/queries.sql
+    gen:
+      go:
+        package: "generated"
+        out: "./pkg/classifications/generated"
+  - engine: "postgresql"
+    schema: "db/migrations"
+    queries:
+      - pkg/campaignthreads/queries.sql
+    gen:
+      go:
+        package: "generated"
+        out: "./pkg/campaignthreads/generated"
