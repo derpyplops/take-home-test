@@ -14,7 +14,6 @@ import json
 import os
 import argparse
 import csv
-import random
 import uuid
 from datetime import datetime
 from collections import Counter
@@ -26,10 +25,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 class ImprovementTester:
     def __init__(self, api_key: str):
         self.client = openai.OpenAI(api_key=api_key)
-        self.model = "gpt-5-mini-2025-08-07"
+        self.models = ["gpt-5-mini-2025-08-07", "gpt-5-2025-08-07"]
     
     # 1. BASELINE - Original simple prompt
-    def baseline_classify(self, transcript: str) -> Dict:
+    def baseline_classify(self, transcript: str, model: str) -> Dict:
         """Original simple prompt from classify_logs.py"""
         system_prompt = f"""
 You are an responsible for classifying incoming call transcripts into relevant intent types so that the humans that are assigned to follow up know what is the best course of action.
@@ -62,20 +61,23 @@ Reply in the following JSON format {{'intent': <category>}}
         
         try:
             response = self.client.chat.completions.create(
-                model=self.model,
+                model=model,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
                 response_format={"type": "json_object"},
             )
-            result = json.loads(response.choices[0].message.content)
+            content = response.choices[0].message.content
+            if content is None:
+                return {"intent": "voice_unknown", "method": "baseline", "error": "Empty response"}
+            result = json.loads(content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "baseline"}
         except Exception as e:
             return {"intent": "voice_unknown", "method": "baseline", "error": str(e)}
     
     # 2. DIFFERENT PROMPT - More conversational
-    def different_prompt_classify(self, transcript: str) -> Dict:
+    def different_prompt_classify(self, transcript: str, model: str) -> Dict:
         """More conversational prompt style"""
         system_prompt = f"""
 You're helping analyze phone calls between education advisors and prospective students.
@@ -104,20 +106,23 @@ What does the User want? Respond in JSON: {{"intent": "<category>"}}"""
         
         try:
             response = self.client.chat.completions.create(
-                model=self.model,
+                model=model,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
                 response_format={"type": "json_object"},
             )
-            result = json.loads(response.choices[0].message.content)
+            content = response.choices[0].message.content
+            if content is None:
+                return {"intent": "voice_unknown", "method": "different_prompt", "error": "Empty response"}
+            result = json.loads(content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "different_prompt"}
         except Exception as e:
             return {"intent": "voice_unknown", "method": "different_prompt", "error": str(e)}
     
     # 3. FEW-SHOT LEARNING
-    def few_shot_classify(self, transcript: str) -> Dict:
+    def few_shot_classify(self, transcript: str, model: str) -> Dict:
         """Original prompt + few-shot examples"""
         system_prompt = """
 You are responsible for classifying incoming call transcripts into relevant intent types.
@@ -136,7 +141,7 @@ Categories:
 - 'voice_unknown': Anything that does not fit into the above categories.
 """
         
-        messages = [{"role": "system", "content": system_prompt}]
+        messages: List[Dict[str, str]] = [{"role": "system", "content": system_prompt}]
         
         # Add 2 correctly classified examples from the original dataset
         user_prompt = f"""Here are 2 examples of correct classifications:
@@ -186,18 +191,22 @@ Reply in JSON: {{"intent": "<category>"}}
         })
         
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
+            response_format: Dict[str, str] = {"type": "json_object"}
+            response = self.client.chat.completions.create(  # type: ignore[call-overload]
+                model=model,
                 messages=messages,
-                response_format={"type": "json_object"},
+                response_format=response_format,
             )
-            result = json.loads(response.choices[0].message.content)
+            content = response.choices[0].message.content
+            if content is None:
+                return {"intent": "voice_unknown", "method": "few_shot", "error": "Empty response"}
+            result = json.loads(content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "few_shot"}
         except Exception as e:
             return {"intent": "voice_unknown", "method": "few_shot", "error": str(e)}
     
     # 4. CHAIN-OF-THOUGHT
-    def chain_of_thought_classify(self, transcript: str) -> Dict:
+    def chain_of_thought_classify(self, transcript: str, model: str) -> Dict:
         """Original prompt + ask model to think step by step"""
         system_prompt = """
 You are responsible for classifying call transcripts. Focus only on User statements.
@@ -218,27 +227,30 @@ Respond in JSON: {{"intent": "<category>", "reasoning": "<brief explanation>"}}"
         
         try:
             response = self.client.chat.completions.create(
-                model=self.model,
+                model=model,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
                 response_format={"type": "json_object"}
             )
-            result = json.loads(response.choices[0].message.content)
+            content = response.choices[0].message.content
+            if content is None:
+                return {"intent": "voice_unknown", "method": "chain_of_thought", "error": "Empty response"}
+            result = json.loads(content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "chain_of_thought"}
         except Exception as e:
             return {"intent": "voice_unknown", "method": "chain_of_thought", "error": str(e)}
     
     # 5. ENSEMBLE (3 instances of few-shot voting)  
-    def ensemble_classify(self, transcript: str) -> Dict:
+    def ensemble_classify(self, transcript: str, model: str) -> Dict:
         """Run 3 instances of few-shot method and vote"""
         # Get results from 3 instances of the same few-shot method
         with ThreadPoolExecutor(max_workers=3) as executor:
             futures = [
-                executor.submit(self.few_shot_classify, transcript),
-                executor.submit(self.few_shot_classify, transcript),
-                executor.submit(self.few_shot_classify, transcript)
+                executor.submit(self.few_shot_classify, transcript, model),
+                executor.submit(self.few_shot_classify, transcript, model),
+                executor.submit(self.few_shot_classify, transcript, model)
             ]
             
             results = []
@@ -262,7 +274,7 @@ Respond in JSON: {{"intent": "<category>", "reasoning": "<brief explanation>"}}"
             "individual_results": results
         }
     
-    def run_method(self, method_name: str, transcripts: List[str]) -> List[Dict]:
+    def run_method(self, method_name: str, transcripts: List[str], model: str) -> List[Dict]:
         """Run a specific method on all transcripts"""
         method_map = {
             "baseline": self.baseline_classify,
@@ -273,14 +285,13 @@ Respond in JSON: {{"intent": "<category>", "reasoning": "<brief explanation>"}}"
         }
         
         classify_func = method_map[method_name]
-        results = []
         
         print(f"Running {method_name} method...")
         
         # Use parallel processing
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_index = {
-                executor.submit(classify_func, transcript): i 
+                executor.submit(classify_func, transcript, model): i 
                 for i, transcript in enumerate(transcripts)
             }
             
@@ -364,52 +375,77 @@ def main():
     
     results_summary = {}
     
-    for method in methods_to_test:
-        print(f"\n{'='*60}")
-        print(f"TESTING: {method.upper()}")
-        print(f"{'='*60}")
+    for model in tester.models:
+        print(f"\n{'='*80}")
+        print(f"TESTING MODEL: {model}")
+        print(f"{'='*80}")
         
-        start_time = datetime.now()
-        results = tester.run_method(method, transcripts)
-        end_time = datetime.now()
-        
-        accuracy = evaluate_accuracy(results, ground_truth)
-        duration = (end_time - start_time).total_seconds()
-        
-        results_summary[method] = {
-            "accuracy": accuracy,
-            "duration": duration,
-            "correct": int(accuracy * len(transcripts) / 100),
-            "total": len(transcripts)
-        }
-        
-        print(f"Accuracy: {accuracy:.1f}% ({int(accuracy * len(transcripts) / 100)}/{len(transcripts)})")
-        print(f"Duration: {duration:.1f}s")
-        
-        # Save detailed results with timestamp
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = f"test_{method}_{timestamp}.json"
-        with open(output_file, 'w') as f:
-            json.dump({
+        for method in methods_to_test:
+            print(f"\n{'='*60}")
+            print(f"TESTING: {method.upper()} on {model}")
+            print(f"{'='*60}")
+            
+            start_time = datetime.now()
+            results = tester.run_method(method, transcripts, model)
+            end_time = datetime.now()
+            
+            accuracy = evaluate_accuracy(results, ground_truth)
+            duration = (end_time - start_time).total_seconds()
+            
+            key = f"{method}_{model}"
+            results_summary[key] = {
                 "method": method,
+                "model": model,
                 "accuracy": accuracy,
                 "duration": duration,
-                "results": results,
-                "generated_at": datetime.now().isoformat()
-            }, f, indent=2)
-        print(f"Saved: {output_file}")
+                "correct": int(accuracy * len(transcripts) / 100),
+                "total": len(transcripts)
+            }
+            
+            print(f"Accuracy: {accuracy:.1f}% ({int(accuracy * len(transcripts) / 100)}/{len(transcripts)})")
+            print(f"Duration: {duration:.1f}s")
+            
+            # Save detailed results with timestamp
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            output_file = f"test_{method}_{model.replace('-', '_')}_{timestamp}.json"
+            with open(output_file, 'w') as f:
+                json.dump({
+                    "method": method,
+                    "model": model,
+                    "accuracy": accuracy,
+                    "duration": duration,
+                    "results": results,
+                    "generated_at": datetime.now().isoformat()
+                }, f, indent=2)
+            print(f"Saved: {output_file}")
     
     # Final comparison
     if len(methods_to_test) > 1:
-        print(f"\n{'='*60}")
+        print(f"\n{'='*80}")
         print("FINAL COMPARISON")
-        print(f"{'='*60}")
-        print(f"{'Method':<20} {'Accuracy':<12} {'Time':<10} {'Notes'}")
-        print("-" * 60)
+        print(f"{'='*80}")
+        print(f"{'Method':<20} {'Model':<25} {'Accuracy':<12} {'Time':<10} {'Notes'}")
+        print("-" * 80)
         
-        for method, stats in results_summary.items():
-            notes = "baseline" if method == "baseline" else f"{stats['accuracy'] - results_summary['baseline']['accuracy']:+.1f}pp vs baseline"
-            print(f"{method:<20} {stats['accuracy']:>6.1f}%     {stats['duration']:>6.1f}s   {notes}")
+        # Group by method for comparison
+        method_groups = {}
+        for key, stats in results_summary.items():
+            method = stats['method']
+            if method not in method_groups:
+                method_groups[method] = []
+            method_groups[method].append(stats)
+        
+        for method in methods_to_test:
+            if method in method_groups:
+                for stats in method_groups[method]:
+                    model_short = stats['model'].replace('gpt-5-', '').replace('2025-08-07', '')
+                    baseline_key = f"baseline_{stats['model']}"
+                    if baseline_key in results_summary:
+                        baseline_acc = results_summary[baseline_key]['accuracy']
+                        notes = f"{stats['accuracy'] - baseline_acc:+.1f}pp vs baseline"
+                    else:
+                        notes = "baseline"
+                    print(f"{method:<20} {model_short:<25} {stats['accuracy']:>6.1f}%     {stats['duration']:>6.1f}s   {notes}")
     
     return 0
 
