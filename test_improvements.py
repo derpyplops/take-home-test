@@ -14,6 +14,8 @@ import json
 import os
 import argparse
 import csv
+import random
+import uuid
 from datetime import datetime
 from collections import Counter
 from typing import Dict, List
@@ -63,7 +65,7 @@ Reply in the following JSON format {{'intent': <category>}}
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                response_format={"type": "json_object"}
+                response_format={"type": "json_object"},
             )
             result = json.loads(response.choices[0].message.content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "baseline"}
@@ -103,7 +105,7 @@ What does the User want? Respond in JSON: {{"intent": "<category>"}}"""
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                response_format={"type": "json_object"}
+                response_format={"type": "json_object"},
             )
             result = json.loads(response.choices[0].message.content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "different_prompt"}
@@ -170,7 +172,9 @@ Correct classification: {{"intent": "voice_interested"}}
 Now classify this transcript:
 Transcript: {transcript}
 
-Reply in JSON: {{"intent": "<category>"}}"""
+Reply in JSON: {{"intent": "<category>"}}
+
+<!-- Cache buster: {uuid.uuid4()} -->"""
 
         messages.append({
             "role": "user",
@@ -181,7 +185,7 @@ Reply in JSON: {{"intent": "<category>"}}"""
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=messages,
-                response_format={"type": "json_object"}
+                response_format={"type": "json_object"},
             )
             result = json.loads(response.choices[0].message.content)
             return {"intent": result.get("intent", "voice_unknown"), "method": "few_shot"}
@@ -222,23 +226,25 @@ Respond in JSON: {{"intent": "<category>", "reasoning": "<brief explanation>"}}"
         except Exception as e:
             return {"intent": "voice_unknown", "method": "chain_of_thought", "error": str(e)}
     
-    # 5. ENSEMBLE (3 different approaches voting)
+    # 5. ENSEMBLE (3 instances of few-shot voting)  
     def ensemble_classify(self, transcript: str) -> Dict:
-        """Run 3 different methods and vote"""
-        # Get results from 3 different methods
+        """Run 3 instances of few-shot method and vote"""
+        # Get results from 3 instances of the same few-shot method
         with ThreadPoolExecutor(max_workers=3) as executor:
             futures = [
-                executor.submit(self.baseline_classify, transcript),
-                executor.submit(self.different_prompt_classify, transcript),
+                executor.submit(self.few_shot_classify, transcript),
+                executor.submit(self.few_shot_classify, transcript),
                 executor.submit(self.few_shot_classify, transcript)
             ]
             
             results = []
-            for future in futures:
+            for i, future in enumerate(futures):
                 try:
-                    results.append(future.result())
-                except:
-                    results.append({"intent": "voice_unknown"})
+                    result = future.result()
+                    result["instance"] = f"few_shot_{i+1}"
+                    results.append(result)
+                except Exception as e:
+                    results.append({"intent": "voice_unknown", "instance": f"few_shot_{i+1}", "error": str(e)})
         
         # Vote on result
         intents = [r["intent"] for r in results]
@@ -247,7 +253,7 @@ Respond in JSON: {{"intent": "<category>", "reasoning": "<brief explanation>"}}"
         
         return {
             "intent": most_common,
-            "method": "ensemble",
+            "method": "ensemble_few_shot",
             "votes": dict(intent_counts),
             "individual_results": results
         }
