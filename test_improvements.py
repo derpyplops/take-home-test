@@ -386,8 +386,9 @@ def main():
         print(f"Accuracy: {accuracy:.1f}% ({int(accuracy * len(transcripts) / 100)}/{len(transcripts)})")
         print(f"Duration: {duration:.1f}s")
         
-        # Save detailed results
-        output_file = f"test_{method}.json"
+        # Save detailed results with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_file = f"test_{method}_{timestamp}.json"
         with open(output_file, 'w') as f:
             json.dump({
                 "method": method,
