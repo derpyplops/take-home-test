@@ -31,7 +31,7 @@ class ImprovementTester:
     # 1. BASELINE - Original simple prompt
     def baseline_classify(self, transcript: str) -> Dict:
         """Original simple prompt from classify_logs.py"""
-        system_prompt = """
+        system_prompt = f"""
 You are an responsible for classifying incoming call transcripts into relevant intent types so that the humans that are assigned to follow up know what is the best course of action.
 You will be given a call transcript.
 Focus exclusively on the user's reply, i.e. sentences that starts with 'User: '.
@@ -46,6 +46,8 @@ Read the transcripts carefully and classify the call transcript into the followi
 - 'voice_wants_whatsapp_sms_follow_up': The user wished to follow up through instant messaging, such as via Whatsapp or SMS.
 - 'voice_voice_mail': The call goes into an automated reply or a voice mail. Reply does not come from an actual user.
 - 'voice_unknown': Anything that does not fit into the above categories.
+
+<!-- Cache buster: {uuid.uuid4()} -->
 """
         
         user_prompt = f"""
@@ -75,7 +77,7 @@ Reply in the following JSON format {{'intent': <category>}}
     # 2. DIFFERENT PROMPT - More conversational
     def different_prompt_classify(self, transcript: str) -> Dict:
         """More conversational prompt style"""
-        system_prompt = """
+        system_prompt = f"""
 You're helping analyze phone calls between education advisors and prospective students.
 
 Your job: Figure out what the person who answered (the "User") actually wants.
@@ -90,6 +92,8 @@ Your job: Figure out what the person who answered (the "User") actually wants.
 - 'voice_wants_whatsapp_sms_follow_up': The user wished to follow up through instant messaging, such as via Whatsapp or SMS.
 - 'voice_voice_mail': The call goes into an automated reply or a voice mail. Reply does not come from an actual user.
 - 'voice_unknown': Anything that does not fit into the above categories.
+
+<!-- Cache buster: {uuid.uuid4()} -->
 """
         
         user_prompt = f"""Phone conversation:
