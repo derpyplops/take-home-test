@@ -32,3 +32,6 @@ go.work.sum
 # .vscode/
 *.swp
 config.yaml
+
+# Analysis data
+analysis_data/
