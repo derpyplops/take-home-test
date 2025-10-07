@@ -1,0 +1,549 @@
+{
+  "method": "baseline",
+  "model": "gpt-5-2025-08-07",
+  "accuracy": 56.666666666666664,
+  "duration": 46.05937,
+  "results": [
+    {
+      "transcript_index": 1,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello? \nAgent: Appiah! This is James from Kaplan. Do you have a minute to chat?\nUser: Uh, yes.\nAgent: Great! I wanted to check if you are still interested in pursuing the Bachelor of Business in Accounting degree at \nUser: Uh, \nAgent: Merkle University?\nUser: no.\nUser: No.\nAgent: Oh, I see. May I ask what led you to change \nAgent: your mind? Was it about the costs, time commitment, or something else?\nUser: Yeah. It's a commitment.\nAgent: I completely understand. Balancing studies with other commitments can feel overwhelming. The good thing is that Merkle offers flexible study options, like a mix of online and face-to-face lessons, so you can fit it into your schedule.Do you think this \nUser: Yeah. \nAgent: flexibility might \nUser: Yeah. Yeah. Because I I I've done my degree there. I I feel like right now with my kids and my Uh, my work, I might not be able to commit. So maybe in future,\nAgent: That makes total sense, Appiah. It sounds like you have a lot on your plate right now. I can ",
+      "classification_result": {
+        "intent": "voice_not_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:26.487428"
+    },
+    {
+      "transcript_index": 2,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello? \nAgent: Wai Kit, this is James from Kaplan. Do you have a minute to chat?\nUser: No. Sorry. Can you call back another day?\nAgent: No problem at all! When would be a good day \nUser: Thank you. \nAgent: for me to call \nUser: Bye bye.\nUser: Thank you. Bye bye.",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:23.464011"
+    },
+    {
+      "transcript_index": 3,
+      "transcript": "User: Big o mum. Is mid\nAgent: Hi there! This is David from Domer College. Do you have 30 seconds to chat?\nAgent: No problem if now isn\u2019t a good time! When would be better for me to call you back?\nUser: The three\nAgent: Got it! I'll give you a call back at 3 p.m. today. Talk to you then!\nAgent: I'll take that as a confirmation. I'll call you back at 3 p.m.\nUser: (inaudible speech)\nAgent:  today. Speak soon!",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:26.393100"
+    },
+    {
+      "transcript_index": 4,
+      "transcript": "Agent: Hi John, I'm David, an AI calling from Global College. Do you have 30 seconds to speak?\nUser: Yes.\nAgent: Great! I wanted to check if you're still interested in the 3-Year Bachelor of Arts in Business program starting in October 2025 at Global College?\nUser: I'm in high school now, I'm not interested right now.\nAgent: Got it, John. Since you're still \nUser: So it'll be \nAgent: in high school, it \nUser: next year.\nAgent: I see. The program also has an intake in October 2026, so you can apply for that next year. Is there anything you'd like to know about the program or Global College in general?\nUser: Don't have a question in mind right now.\nAgent: No problem at all! If anything comes up later, feel free to reach out. Thanks for your time, John, and have a great day!\nUser: Thank you.\nAgent: You're ",
+      "classification_result": {
+        "intent": "voice_not_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:25.079016"
+    },
+    {
+      "transcript_index": 5,
+      "transcript": "User: Hello?\nAgent: Hi Xavier, this is James from Kaplan. Do you have a minute to chat?\nUser: (inaudible speech)\nAgent: Are you still there, Xavier? Do you have a moment to chat?\nUser: I I I'm in a meeting.\nAgent: No problem at all! When would be a better time for me to call you back?\nUser: Maybe the afternoon.\nAgent: Got it! I will give you a call back this afternoon. Have a great meeting, \nUser: Okay. Thanks.\nAgent: Shelia! Talk soon.",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:25.311775"
+    },
+    {
+      "transcript_index": 6,
+      "transcript": "User: Hello?\nAgent: Hi Alan, this is James from Kaplan Singapore. Hope you are doing well! Do you have a minute to chat?\nUser: Maybe not now. Can can you call back later?\nAgent: No problem at all, Alan. When would be a good time for me to give you a call back?\nUser: Maybe about two PM.\nAgent: Alright, I will give you a call around two this \nUser: Yep. Yeah. Thank \nAgent: afternoon. If you have any questions \nUser: you.",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:24.811230"
+    },
+    {
+      "transcript_index": 7,
+      "transcript": "User: Hello?\nAgent: Hi Joel! This is James from Kaplan Singapore. Do you have a minute to chat?\nUser: I'm trying to say what right now. I just is this a ZIP?\nAgent: No worries, Joel! Just to clarify, this is not \nUser: Yeah.\nAgent: about a ZIP file. I am calling from Kaplan Singapore to follow up on your interest in studying law with Manchester University. Do you have a moment to chat, or would you prefer I call you back later?\nUser: Oh, yeah. Yeah. I think, uh, could you call me back later?\nAgent: Of course, Joel! What time would be good for me to call you back later today, or is there another day that works better for you?\nUser: Yeah. Maybe you could call me back on Thursday because I'm free anytime that day.\nAgent: Great, thanks for letting me know! On Thursday, I can give \nUser: Okay.\nAgent: you a call at a time that suits you. Would you prefer morning, around lunchtime, or in the afternoon?\nUser: Morning will be good.\nAgent: Perfect, I will give you a call on Thursday morning. If you have any questions in the meantime, just let me know. Looking forward to speaking with you then!\nUser: Okay.\nUser: you.\nAgent: Alright, Ariffin. Have a great day and I will catch you on Thursday morning. Take care!",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:25.840847"
+    },
+    {
+      "transcript_index": 8,
+      "transcript": "User: Hello?\nAgent: Hi Vivek, this is James from Kaplan Singapore. Do you have a minute to \nAgent: chat?\nUser: Yeah. Hello, I think.\nUser: I'm missing my call, Tyler. Who's speaking?\nUser: you call me after maybe five o'clock?\nAgent: Thanks for letting me know, Vivek. I am James from \nUser: Yeah.\nAgent: Kaplan Singapore, just following up on your interest in the Information Technology degree with Bristol University. No worries about the timing\u2014what time after five works best for you for a quick call back?\nUser: Or lunchtime?\nUser: is \nAgent: Sure \nUser: also okay if you call about one one one o'clock, one thirty?\nAgent: Alright, \nUser: But it's not a \nAgent: Vivek. I can \nUser: government course, ma'am. That that's why. We'll be finishing off the full stack junior course with transition Singapore.\nUser: This week.\nAgent: Thanks for sharing, Vivek. You are right, the \nUser: Yeah. And\nAgent: Information Technology degree with Kaplan and Bristol University is not a government-funded course, so SkillsFuture credits cannot be used. But we do offer education grants and flexible payment options to help with fees.\n\nSince you are finishing your full stack junior course this week, would you like me to call you back after you are done, or would you prefer a call during \nUser: Okay.\nUser: Yeah. I think that'd be the best thing.\nUser: Yeah. That'd be that'd be best. I mean, I this It's it's the part that I wanted to look into cybersecurity.\nUser: but if you're looking at the best bachelor's degree, right, there's also options there are options from NTU also for me because I'm a single born here. So it comes from a PACE. I think, p a c e, thing where they actually offered me something because I'm I'm not I'm I'm unemployed at this moment.\nAgent: That \nUser: So NTU, \nAgent: makes sense, Vivek.\nUser: actually. Yeah. Correct. So they will speak more maybe at two estimates. You mean, maybe next week?\nAgent: Got it, Vivek. Sounds like you are \nUser: Yeah.\nAgent: weighing your options between NTU and Kaplan for your next step in cybersecurity, especially since NTU has some support \nUser: Yeah. Correct. M q will definitely be the first option.\nUser: think my father-in-law in about billiard, basically. Even though I came from Nagang Poly before my before my NS and all that. You know? So I think it makes sense. I'm forty two years of age, so I have to keep my my children be happy also. Yeah. But I just want to know more about the cybersecurity in terms of it is being heavily funded How much do I have to, you know, come out of my pocket?\nUser: that's that's one of the most important thing. Mean, being a brave enough a expert dinner for the house, you know, behind the where you you know, we what what how much money is gonna come up. But the n p u one, the parent they bought something which is much more lucrative.\nUser: Because, you know, since you do you don't have a job, I think they they they allow me to use CPF or something, but I don't don't don't question me yet because I haven't really go in and speak with them more, but they told me that I am because I came I came from HR background. Over the years.\nAgent: Thanks for sharing all that, Vivek. I totally get where \nUser: Yeah.\nAgent: you are coming from\u2014cost is a huge factor, especially when you are supporting your family and looking for the best value.\n\nFor the Information Technology degree at Kaplan, SkillsFuture and CPF cannot be used, but there are education grants, study loans, and 0% instalment plans to help with fees. The exact amount you will need to pay depends on the programme, and your advisor can break down all the costs and payment options for you.\n\nWould you like me to arrange a call with a Kaplan advisor next week, maybe around 2 PM, so you can get all the details and compare your options?\nUser: Okay.\nUser: Okay.\nUser: Okay. So I I also believe you one more thing. It's not a waste waste people's time because people's time is, of course, an essence for me too.\nUser: me \nAgent: Absolutely, \nUser: finish up this this course first. If you can follow-up with me next Monday or Tuesday, Jamie, because next week is this Friday, is our submission for capstone.\nUser: And then the following week would be my interviews with companies like Tata and all that. Let's see whether I'll end the job or not.\nUser: I am hopeful. And at the same time, if it doesn't work that way, then I will have to look at, you know, growing myself further by doing you know, of course, I do some ad hoc with with with with companies to to sustain. So let's just speak on Monday or Tuesday. I think Tuesday will be the best thing.\nUser: Next Tuesday.\nAgent: Thanks for sharing, Vivek. That sounds like a solid \nUser: No problem. \nAgent: plan\u2014let us see how things go with your interviews first. I will follow up with you \nUser: Sure.\nAgent: Great, Vivek. I will give you a call next Tuesday to check in and see how things are going. In the meantime, if you \nUser: Thank you, \nAgent: have any questions or \nUser: sir. Yeah. No. No. No. I mean, we no questions for now.\nAgent: You are most \nUser: Hello? Yeah.\nAgent: welcome, Vivek. All the best for your capstone and interviews\u2014hope everything goes well! I will catch up with you next Tuesday. Take care and have a good week \nUser: Yes. Yes. Thanks, David. Yes. You have a good day. You too.\nUser: be to ahead to you too. Thanks thanks for the call. Appreciate it. Bye.\nAgent: Thank you, Vivek. Take care and all the best with everything. Goodbye!",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:25.972378"
+    },
+    {
+      "transcript_index": 9,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello?\nAgent: Stefanie Jane, this is James from Kaplan Singapore. Hope you are doing well! Do you have a minute to chat?\nUser: You Sorry. I'm I'm in a meeting at the moment.\nUser: Can can \nAgent: No worries at all, \nUser: you try me a bit later?\nUser: Thanks. \nUser: Bye.\nAgent: Of course, Stefanie!",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:24.544544"
+    },
+    {
+      "transcript_index": 10,
+      "transcript": "User: Hello?\nAgent: Hi Fadly! This is James from Global College. Do you have a quick minute to chat?\nUser: Hello?\nAgent: Hi Fadly! Can you hear me? This is James from Global College.\nUser: Hi. Yes. Good. Hi, Jimson.\nAgent: Ah, close! It\u2019s James here. So, Fadly, are you still interested in pursuing further studies with Global College?\nUser: Uh, yeah. But not at the moment. We have some stuff tied up. For the next few months.\nAgent: Got it, Fadly. Sounds like you\u2019ve got a lot on your plate right now. When do you think might be a better time for us to reconnect about this? Maybe in a few months?\nUser: Yeah. Upon looking at it, maybe, uh, maybe next year.\nAgent: Alright, next year sounds good! Would you like me to reach out early \nUser: Thank you.\nAgent: You're welcome, Fadly! I'll reach out early next year to follow up. Take care and have a great day!\nUser: Thank you.\nUser: You too. Bye.\nUser: \nAgent: Thanks, Fadly! Bye \n",
+      "classification_result": {
+        "intent": "voice_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:26.108333"
+    },
+    {
+      "transcript_index": 11,
+      "transcript": "User: Hello?\nAgent: Hi Jennifer! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Yes. So is it regarding?\nAgent: It's about your interest in studying the Bachelor of Business in Accounting at Bath University. Are you still keen on pursuing \nUser: Okay.\nAgent: this degree?\nUser: Yes. I am. And I believe I think Mary reached out to me that there will be an intake in May. Right?\nAgent: Yes, that's right! We have three intakes a year\u2014January, May, and September. May could be a great time to start. Do you have any questions about the program or the next steps?\nUser: So far, no. It's just because that I was pregnant, and I just recently delivered. So I didn't have time to actually go through the cost last year.\nAgent: Congratulations on your new baby, Jennifer! That\u2019s such a special time. It\u2019s completely understandable that things got busy.If costs are a concern, we do offer flexible payment plans and even education loans with repayment terms up to 8 years. Would you like me to arrange a call with your advisor to go over the details and help you plan?\nUser: I'm I'm good.\nAgent: Got it! Are you still open to continuing your application for the May intake, or would you prefer to wait a bit longer?\nUser: I think I'll a bit longer, and I'll decide later on.\nAgent: That makes sense! When would be a good time for me to check back with you\u2014maybe in a few months or closer to the May intake?\nUser: Maybe in a few months? Maybe we'll do much?\nAgent: Sure, I can follow up with you in a few months. How about I reach out around March? Would that work for you?\nUser: Yes.\nAgent: Perfect! I\u2019ll check back with you in March then. In the meantime, if you have any questions or need help, feel free to reach out. Take care, and enjoy this special time with your little one! Goodbye for now!\nUser: Thank you. Bye bye.\nAgent: Left the conversation on a \n",
+      "classification_result": {
+        "intent": "voice_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:37.639050"
+    },
+    {
+      "transcript_index": 12,
+      "transcript": "User: Hello?\nUser: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Uh, what is the\nAgent: Hi! This is James from Kaplan. I\u2019m following up on your interest in pursuing a diploma with us. Are you still interested in furthering your studies?\nUser: Uh, no.\nAgent: Oh, I see. Can I ask what led you to change your mind? Was it about the cost, time commitment, or something else?\nUser: Oh, something else.\nAgent: Got it. Would you mind sharing what it is? Maybe I can help address your concern.\nUser: I think for now, uh, look. Because there's no Time to study.\nAgent: I understand, balancing studies with everything else can be tough. If it helps, our diploma programs are designed with flexibility in mind, offering a mix of face-to-face and online learning.Would you like me to follow up with you in a few months when things might be less hectic?\nUser: Okay.\nAgent: Great! When would be a good time for me to reach out again? Maybe in three months, or later in the year?\nUser: Oh, we really did the\nAgent: No problem! I'll make a note to follow up with you later. If you ever have any questions in the meantime, feel free to reach out. Have a great day!\nUser: Thank you.\nAgent: You're welcome! Take \n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:36.365217"
+    },
+    {
+      "transcript_index": 13,
+      "transcript": "User: Hello?\nAgent: Hi Charlene! This is James from Kaplan Singapore.\nUser: Yeah. Hi.\nAgent: Hi! Do you have a quick minute to chat?\nUser: You're from where, Kaplan?\nAgent: Yes, that's right! I'm from Kaplan Singapore. I\u2019m following up on your interest in studying with us. Do you have a moment to chat?\nUser: Oh, okay. Um, not now. It's actually for my son.\nAgent: Got it, no problem at all! When would be a better time for me to call back and discuss \nUser: Yes.\nAgent: this with you?\nUser: That's okay. I'll reach out when I'm ready.\nAgent: Alright, no problem! Feel free to reach out anytime.\nUser: Yeah. Thank you too.\nUser: Yes. Thanks.\nAgent: You're very welcome! Have a great day ahead!\nUser: Bye.\nAgent: Bye! Take care!\n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:32.377976"
+    },
+    {
+      "transcript_index": 14,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan.\nUser: Hi.\nAgent:  Do you have a quick minute to chat?\nUser: Hi, \nAgent: Hi!\nUser: Jid. Yeah.\nUser: Hi, James. Can \nAgent: Great! I just \nUser: you hear me?\nAgent: Yes, I can hear you perfectly! Thanks for confirming.\nUser: Okay. \nAgent:  Are you still interested in pursuing the Foundation Diploma with Kaplan?\nUser: Oh, not quite. I mean, not in a moment, actually.\nAgent: Got it, no problem at all. When would be a better time for me to call you back?\nUser: To be honest, I I just completed a a Uh, a vocational course. So\nAgent: Ah, \nUser: it might \nAgent: I see!\nUser: not be anytime near if you just want me to take up that that fundamental cough. Diploma cost. Yeah.\nAgent: Got it, it sounds like you're not looking to start something new right away. Would you like me to follow up with you in a few months, or maybe next year, to see if you're ready then?\nUser: Yeah. Because the thing is, um, um, I just I just I just pick up a a new skill. So It might not work for me in terms of my current, uh, My ticket size.\nUser: To \nAgent: That makes total \nUser: actually pick up Sorry. What's that?\nAgent: That makes total sense! It sounds like you're focusing on your \nUser: Yep. \nAgent: new skill for now, which is great. How about I check back with you in a \nUser: Yeah.\nAgent: Alright, no problem! When would be a good time for me to follow up\u2014maybe in six months or next year?\nUser: How many next year?\nAgent: Sure! Would you like me to reach out early next year, maybe around January or February? Or later in the year?\nUser: Maybe they didn't know you. Yeah.\nAgent: No worries! How about I check back with you around mid-next year, say June or July? Would that work for you?\nUser: Yep.\nAgent: Perfect! I'll follow up with you around June or July next year. In the meantime, if you have any questions, feel free to reach out. Have a great day ahead!\nUser: Okay.\nAgent: Alright, take care and talk to you next year. Bye for now!\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:33.798397"
+    },
+    {
+      "transcript_index": 15,
+      "transcript": "User: Hello?\nAgent: Hi Tiffany! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Okay.\nAgent: Great! I just wanted to check if you're still interested in pursuing the MBA program at Warwick University?\nUser: Uh, currently, no.\nAgent: Oh, I see. Can I ask what made you change your mind? Is it about the cost, time commitment, or something else?\nUser: Yeah. Yeah. Because, uh, I'm the nouns because I working as a accountant. So now currently, uh, I'm taking the one of the course called, uh, this IFRS. So currently, I'm not available yet. Maybe after this call, then I may consider it.\nAgent: Got it, Tiffany. It sounds like you're focusing on your IFRS course right now, which makes sense. When do you \nUser: Yes. Because, you know, I'm as a account. That's all I this is a more relevant to me. So I study relevant to my one. But I mean, I don't know if it's not relevant, but I'm while while walking, and then the current I'm thinking that this, uh, the cost is more really And I\nAgent: I understand, Tiffany. It sounds like you're prioritizing what's most relevant to your current role as an accountant, which is totally fair. The MBA could still be a great option for the future if you're looking to expand your career opportunities.Would you like me to follow up with you \nUser: Yes.\nAgent: in a few months, or when you're done with your IFRS course?\nUser: Yeah. So the one is only, like because for me, I know I start paying for your cost. So the wife keep preparing for the June exam. So I don't I think after June only, then I may think for the MBA.\nAgent: Got it, Tiffany. It makes sense to focus on your June exam first. I\u2019ll make a note to follow up with \nUser: Yeah.\nAgent: you after June to discuss the MBA. Best of luck with your IFRS \nUser: Okay. Okay.\nAgent: Thanks, Tiffany! Take care, and \nUser: Okay.\nAgent: I\u2019ll reach out after \nUser: Okay. K. Bye bye.\nAgent: Bye, Tiffany! All the best!\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:34.452014"
+    },
+    {
+      "transcript_index": 16,
+      "transcript": "User: Hello?\nAgent: Hi Siti! This is James from Kaplan. Do \nUser: Say \nAgent: you have a quick minute to chat?\nUser: again?\nAgent: Hi Siti, this is James from Kaplan Singapore. Do you have a moment to chat?\nUser: Yes.\nAgent: Great! I wanted to check if you are still interested in pursuing the Bachelor of Marketing degree at Global University?\nUser: It's Because I still need to check on my ABL that security, may I know when is the next Next, we'll go date to enter.\nAgent: Global University has three intakes each year\u2014in January, May, and September. Would you like me to set up a call with your advisor to discuss this further? They can guide you on the next steps.\nUser: Okay. But if were to join, most probably, I will be joining during September.\nAgent: That sounds like a good plan! September gives you plenty of time to prepare. Would you like me to schedule a call with your advisor to discuss your application and any other details?\nAgent: Just checking in\u2014would you like me to arrange a call with your advisor to help you with the September intake and any other questions you might have?\nUser: Yes, please.\nAgent: Alright! The available slots for a call with your advisor are 9 AM, 11:30 AM, or 2 PM this Friday. Which one works best for you?\nUser: Actually, I'm still working that day, so we engaged. We're working alone, so I don't know one to cover for me.\nAgent: No \nUser: possible?\nAgent: No problem at all! If Friday does not work, we can find another time. Do you have a specific day or time in mind that might suit you better?\nAgent: Take your time, Siti! Let me know whenever you are ready, and we can work out a time that fits your schedule.\nUser: Next.\nAgent: Got \nUser: 12:30.\nAgent: it! How about next Monday, February 17th? Let me know what time works best for you, and I can check with your advisor.\nUser: Maybe around chocolate tea?\nAgent: I am not sure I understand. Could you clarify what time you mean?\nUser: Just a p.\nAgent: Ah, do you mean 2 PM? If so, I can suggest that \nUser: If \nAgent: time for next Monday, February 17th. Let me know if that works!\nUser: It's now 1230\nAgent: Ah, I see! If it is around 12:30 PM that you are looking for, unfortunately, we do not have that exact time available. The closest available slots are 11:30 AM or 2 PM. Would either of those work for you?\nUser: Okay. 11:30.\nAgent: Perfect!\nUser: 11:30.\nAgent:  I will schedule the call for 11:30 AM this Friday, February 14th. You will receive a calendar invite once it is confirmed. The advisor will give you a call then, so just keep an eye out for it.\n\nDo you have any other questions for now?\nUser: Location.\nUser: Location.\nAgent: The call will be over the phone, so the advisor will ring you directly at 11:30 AM this Friday. Just make sure your phone is available at that time!Anything else I can help you with?\nUser: That's all.\nAgent: Great! The advisor will call you at 11:30 AM this Friday. Have a wonderful day, Siti!\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:39.331508"
+    },
+    {
+      "transcript_index": 17,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: You you are from where, I guess? Sorry.\nAgent: No worries! I\u2019m James, calling from Kaplan Singapore. You had shown interest in studying with us. Do you have a moment to chat?\nUser: Oh, yes. Yes. Yes. Yes. Oh, but but now I'm actually engaged. Maybe I call you back, like, See, Uh, next week. Okay?\nAgent: Got it! When next week would be \nUser: Okay. Thank \nAgent: a good time for me \nUser: you.\nUser: Uh, next week, uh, maybe maybe next next Friday at at about 12? Let's say 12 or 1? 12 within 12 to 1.\nAgent: Thanks for letting me know! Unfortunately, I don\u2019t have \nUser: Okay.\nAgent: a slot exactly at 12 or 1 next Friday, but I can offer 11:30 AM instead. Would that work for you?\nUser: Should be good now.\nAgent: Great! I\u2019ll arrange for your advisor to call you next Friday at 11:30 AM. You\u2019ll get a calendar invite \nUser: Okay. \nAgent: once it\u2019s confirmed.\nUser: Sure.\nUser: Okay then. Thank you so much. Bye.\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:33.375401"
+    },
+    {
+      "transcript_index": 18,
+      "transcript": "User: No. Hello?\nAgent: Hi Carrie! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Yep.\nAgent: Great! I wanted \nUser: Yes.\nAgent: to check if you're still interested in pursuing a Diploma in Education & Social Sciences with James Cook?\nUser: Social, Pfizer. This is did I apply for it actually?\nAgent: It sounds like you're interested in the Social Sciences Diploma, but you're unsure if you've already applied. I don\u2019t have access to your application status, but I can help schedule a call with your advisor to confirm that for you. Would you like me to do that?\nUser: Okay. That will be good. Yes.\nAgent: Perfect! We have a few available slots for a call with your advisor: 9 AM, 11:30 AM, or 2 PM next Monday, December 30. Which one works best for you?\nUser: Let me see. Monday, um, 7:30 would be fine.\nAgent: The closest available slot to 7:30 PM on Monday is 2 PM. If that doesn\u2019t work, I can check with the advisor if 7:30 PM is possible. Would you like me to do that?\nUser: No. No. 2 PM is fine also.\nAgent: Got it! I'll schedule the call for 2 PM next Monday, December 30. Once it's confirmed, you'll receive a calendar invite. The advisor will ring you at that time, so just keep an eye out for the call.\n\nDo you have any other questions \nAgent: in the meantime?\nUser: Okay.\nUser: No. No. Not at this moment.\nAgent: Thanks, \nUser: Thank you so much.\nUser: Okay. \nAgent: Thanks \nUser: Bye.\nAgent: Thanks for your time, Carrie! Have a great day ahead. \nUser: Yes. \nAgent: Bye!\nUser: This Okay. Bye.\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:35.230641"
+    },
+    {
+      "transcript_index": 19,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: I'm sorry. Can you give me a call in at another 1 hour?\nAgent: Sure, I can call you back in an hour. Speak to you then!\nUser: Thank you. Yep. Thank you. Bye bye.\nAgent: No problem at \n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:29.411011"
+    },
+    {
+      "transcript_index": 20,
+      "transcript": "User: Hello?\nAgent: Hi Joel! This is James from PSB Academy Singapore.\nUser: Yeah.\nAgent:  Do you have a quick minute to chat?\nUser: I'm sorry. I'm in a meeting for training now.\nAgent: No problem at all! When would be a better time for me to call you back?\nUser: After 7,\nAgent: Got it! I\u2019ll give you a call after 7 PM today. Have a great training session, Joel!\nUser: Thank you.\nAgent: You're welcome! Talk to you later, Joel!\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:30.559613"
+    },
+    {
+      "transcript_index": 21,
+      "transcript": "Agent: Hello, this is Santiago\nUser: Yes?\nAgent: Hello, this is Santiago, the enrollment advisor at Global University. I'm following up on your interest in the online Bachelor's Degree in Linguistics. Are you still interested in this program?",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:33.493905"
+    },
+    {
+      "transcript_index": 22,
+      "transcript": "User: Hello\nAgent: Hello, am I speaking with",
+      "classification_result": {
+        "intent": "voice_immediate_hangup",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:33.765989"
+    },
+    {
+      "transcript_index": 23,
+      "transcript": "User: Hello?\nAgent: Hi Amelia! This is James from Kaplan. Do you have a minute to chat?\n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:39.467443"
+    },
+    {
+      "transcript_index": 24,
+      "transcript": "User: Hello?\nUser: Hello? \nAgent: Hi there! This is James from \nUser: Hello?\nAgent: Kaplan. Do you have a \nAgent: minute to chat?\nUser: Who?\nAgent: I am James from Kaplan Singapore.\nUser: Oh, \nAgent:  You had previously enquired about studying \nUser: yes.\nAgent: Great! Are \nUser: Oh, no. Uh, can I call you back One sec? Hold on. Hold on. I'm receiving another call for work. Uh, I need to pick that up first.\nUser: Hold on. \nAgent: you \nUser: I'll call you back.\n",
+      "classification_result": {
+        "intent": "voice_wants_call_back",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:54.290822"
+    },
+    {
+      "transcript_index": 25,
+      "transcript": "User: Hello?\nAgent: Hi Lim Boon, this is James from Kaplan. Do you have a minute to chat?\nUser: Kathleen yes? Yes. Tell me.\nAgent: Actually, it is James from Kaplan! I wanted to check if you are still interested in pursuing the Bachelor in Accounting degree at Global University?\nUser: I'm not. I am looking for my girlfriend, uh,\nAgent: No worries, Lim Boon. If you are not interested in the program anymore, that is perfectly fine. If you ever change your mind or have any questions in the future, feel free to reach out. Have a great day!\n",
+      "classification_result": {
+        "intent": "voice_not_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:38.670644"
+    },
+    {
+      "transcript_index": 26,
+      "transcript": "Agent: Hello, is this Patricia?\nUser: (inaudible speech)\nAgent: I'm Sof\u00eda, an advisor at Global University. I'm following up on your interest in the Bachelor's degree in Fine Arts in the \n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:41.267665"
+    },
+    {
+      "transcript_index": 27,
+      "transcript": "User: Hello?\nAgent: Hi Annie! This is James from Kaplan. Do you have a minute to chat?\nUser: Thank you\nAgent: You're \nUser: Hello?\nAgent: Hi Annie! This \nUser: Hello?\nAgent: Hi \nUser: Yeah.\nAgent: Annie! It's James from Kaplan. Do you have a minute to chat?\n",
+      "classification_result": {
+        "intent": "voice_immediate_hangup",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:42.349657"
+    },
+    {
+      "transcript_index": 28,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: (inaudible speech)\nAgent: No \nUser: Only \nAgent: worries if \nUser: one's currently working.\nAgent: Got it! Are you still interested in pursuing \n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:39.399010"
+    },
+    {
+      "transcript_index": 29,
+      "transcript": "User: Hi. Henry speaking.\nAgent: Hi Henry! This is James from Kaplan.\nUser: Hi.\nAgent:  Do you have a quick minute to chat?\nAgent: Hi \nUser: Alright.\nAgent: Grace! I just wanted to check if you're still interested in pursuing a degree with Aston University through Kaplan?\nAgent: Just to let you know, I\u2019m here to answer any questions you might have or help you schedule a consultation with one of our advisors. Do you have any questions about the program \n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:39.131124"
+    },
+    {
+      "transcript_index": 30,
+      "transcript": "User: It's\nAgent: Hi Siak Peng! This is James from Brighton University. Do you have a quick minute to chat?\nUser: Hello?\nAgent: Hi Siak Peng! This is James from Brighton University. I\u2019m following up on your interest in studying with us. Do you have a moment to chat?\n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:41.535866"
+    },
+    {
+      "transcript_index": 31,
+      "transcript": "User: Hello?\nAgent: Hi Halimah! This is Jessica from Kaplan. Do you have a quick minute to chat?\nUser: Yes.\nAgent: Great! I \nUser: Hello?\nAgent: wanted to check if you are still interested in pursuing the Bachelor of Arts in Business and Finance degree \nUser: Oh, sorry. I I'm currently doing my degree under Kaplan already. I've actually submitted my application a long ago. For a different degree course.\nAgent: Oh, I see! Thanks for letting me know. It sounds like you are already \nUser: Yes. Okay. Thanks.\nUser: Sorry?\nAgent: on your way with Kaplan. If you have any questions or need assistance, feel free to reach out. Have a great day, Haifa!\n",
+      "classification_result": {
+        "intent": "voice_no_action",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:44.038370"
+    },
+    {
+      "transcript_index": 32,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James  Do you have a quick \nUser: Hello?\nAgent: from Kaplan.minute to chat?\nAgent: Hi! This is James from Kaplan. Do you have a moment to chat?\nUser: Hi. Uh, yes?\nAgent: Great! I wanted to check if you are still interested in pursuing the Business Diploma at Kaplan?\nUser: Yes. Yes. I am.\nAgent: That is wonderful to hear! Do you have any questions about the program or anything else I can help with?\nUser: I know. Uh, I think I both received really. So I will just look at it and get back to you.\nAgent: No problem at all. Are you still open to continuing your application? If so, I can help schedule a call with a Kaplan advisor who can assist you with it.\nUser: Not yet.\nUser: Let me consider first. Then if anything,\nAgent: Of course, take  If you have any  Is there \nUser: Hello?\nAgent: your time to consider.questions or need assistance in the future, feel free to reach out.a good time for me to check back with you?\nUser: No. It's okay. I'll reach out to you.\nAgent: Alright, that sounds good. Thank you for your time, and feel free to reach out whenever you are ready. Have a great day!\n",
+      "classification_result": {
+        "intent": "voice_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:43.366410"
+    },
+    {
+      "transcript_index": 33,
+      "transcript": "User: Hi.\nAgent: Hi Lionel! This is Jessica from Global University. Do you have a minute to chat?\nUser: Yeah. Yeah. I, yeah, can.\nAgent: Great! I wanted to check if you are still interested in pursuing the Bachelor in Engineering degree at Global University?\nUser: Yeah. Electrical engineering, actually. Yeah.\nAgent: Got it! So you are interested in the electrical engineering area. I am here to answer any questions you might have or help you schedule a consultation with one of our advisors. Do you have any questions about the program or anything else?\nUser: Uh, for them, The intake of August, when can I start applying?\nAgent: The next intake after August would be in September, as we have three intakes a year\u2014January, May, and September. Your advisor can guide you on when to start applying and the steps involved. Would you like me to set up a call with them to discuss this?\nUser: Uh, I think I'm in contact with Joanne. Serge be fine.\nAgent: Alright, I will make a note for Joanne to follow up with you about the September intake. Is there anything else you would like me to assist you with?\nUser: Uh, for now, no.\nUser: Thank you.\nAgent: You are very welcome, Lionel! Have a great day, and Joanne will \nUser: Thank \nAgent: be in touch \nUser: you. Thank you.\nAgent: You are very welcome, Lionel! Have a great day ahead.\n",
+      "classification_result": {
+        "intent": "voice_no_action",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:46.430044"
+    },
+    {
+      "transcript_index": 34,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello? \nAgent: Sharon! This is Jessica from Kaplan. Do you have a minute to chat?\nUser: Hi. Oh, uh, yes. Can\nAgent: Great! I just wanted \nUser: Hello? \nAgent: to check if you are still interested \nUser: Okay.\nAgent: Are you still interested in pursuing the Psychology degree with Northern University?\nUser: Oh, uh, no.\nAgent: Oh, I \nUser: Because I'm actually looking for, uh, like, media communication\nUser: course.\nAgent: Northern University does offer a Bachelor's degree in Mass Communication. Would you like me to help you schedule a call with an advisor to discuss this programme further?\nUser: Okay. Thank you. But, actually, maybe no need because I think I'm in contact with one of your program advisers. Her name is Asha.\nAgent: Ah, I see! That is great that you are already in touch \nUser: Yeah.\nAgent: with Asha. She will be the best person to guide you further. If you need anything else or have more questions, just let me know, okay?\nUser: Okay. Yeah.\nUser: Ken, I'll also reach out to you on Email it? Yes.\nAgent: Yes, absolutely! Asha \nUser: Yeah. \nAgent: or someone from the \nUser: Okay.\nAgent: Alright, Sharon. Take care and have a great day! Bye!\nUser: Thank you. You too. Bye.\nAgent: Sharon said goodbye, so I ended the call politely.",
+      "classification_result": {
+        "intent": "voice_no_action",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:50.081438"
+    },
+    {
+      "transcript_index": 35,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Yes.\nUser: Yeah. \nAgent: Great! I wanted \nUser: Hi. Hello?\nUser: Yes?\nAgent: Hi again! I just wanted to check if you are still interested in pursuing the Diploma in Business Management with Logistics at Kaplan?\nUser: Oh, yeah. Actually, uh, I've already, uh, talked with one of your consultant. His name is Nick Keith. I'm not mistaken.\nAgent: Got it! Since you have already spoken with Nick Keith, is there anything else you would like to ask or clarify? I can also make a note for him to follow up with you if needed.\nUser: Oh, actually, he really follow-up with me. I just told him that I won't uh, work. I'll start my class on August, sir.\nAgent: Thanks for letting me \nUser: Alright.\nAgent: know! It sounds like you have everything sorted out for now. If you need any further assistance or have questions before August, feel free to reach out. Have a great day ahead!\nUser: Okay.\nUser: Alright. Thank you.\nAgent: You are welcome! Take care and have a great day ahead!\n",
+      "classification_result": {
+        "intent": "voice_no_action",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:46.176163"
+    },
+    {
+      "transcript_index": 36,
+      "transcript": "Agent: Hello,\nUser: Okay?\nAgent: I'm speaking with Damian?\nUser: Yes?\nAgent: Hello,\nUser: Who?\nAgent: I'm \nUser: Damian\nAgent: Sofia,\nUser: Colt, here to serve you. Tell me.\nAgent: Nice to meet you, Damian! I'm Sofia, an advisor at \nUser: Tell me.\nAgent: the University \nUser: Yes.\nUser: Miss Sofia, please, I can't hear you well.\nAgent: Sure. I'm calling to follow up on your interest in the online Bachelor's Degree in Sports Science.\nUser: I'm already enrolled here in the state of Virginia. Very kind.\nAgent: Understood, Damian! Thank you very much for letting me know. If you ever need anything else, don't hesitate to contact us. I wish you much success in your studies. Have a great day!\nUser: Thank you, very kind. Thank you.\nUser: Thank you.\n",
+      "classification_result": {
+        "intent": "voice_no_action",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:43.951340"
+    },
+    {
+      "transcript_index": 37,
+      "transcript": "User: You know how bad that one goes?\nAgent: I am not sure I understand what you mean. Could you clarify?\nUser: 3. Well, so is this I Hello?\nAgent: Hi John, this is Jessica from Kaplan. Do you have a minute to chat?\nUser: Yeah. Uh, yes. I have.\nAgent: Great! I wanted to check if you are still interested in pursuing a degree programme with Southwest University?\nUser: Actually, I've been I've been enrolling into the into the course.\nAgent: That is wonderful to hear! Since you are already enrolled, \nUser: Yeah. \nAgent: do you have any questions \nUser: Uh-huh.\nUser: K. \nAgent: Sure! What questions do you have? I will do my best to help.\nUser: I Test No questions, usually. I'm not sure why if I come there this question you can So I'm not sure why this call why this call about that.\nAgent: Thanks for letting me know! This call was just to follow up and check if you needed any assistance or had any questions about your enrolment. Since you are already enrolled and do not have any questions, I will not take up more of your time.If anything comes up later, feel free to reach out. Have a great day!\nUser: Alright. Thank you.\nUser: Hi. It's going to take up. Uh,\n",
+      "classification_result": {
+        "intent": "voice_no_action",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:46.948896"
+    },
+    {
+      "transcript_index": 38,
+      "transcript": "User: Hello?\nAgent: Hi Lilian! This is James from Kaplan. Do you have a quick minute to chat?\nUser: For what?\nAgent: I am following up on your interest in studying the Masters in Applied Mathematics in\nUser: Uh, not \nAgent: University College \nUser: yet ready. Thank you.\nAgent: No problem at all! When would be a better time for me \nUser: bye. Yeah. They're already Have it ready. Thank you.\nAgent: to call you back?\n",
+      "classification_result": {
+        "intent": "voice_immediate_hangup",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:50.380112"
+    },
+    {
+      "transcript_index": 39,
+      "transcript": "User: Hello?\nAgent: Hi Anthony! This is Jessica from Kaplan. Do you have a quick minute to chat?\nUser: Uh-huh.\nUser: Yeah.\nAgent: Great! I wanted to check if you are still interested in \nAgent: Awesome! Are there any questions you have about the programme, or anything you are unsure about? I can help answer or set up a consultation with one of our advisors.\nUser: Oh, okay. I actually, uh, they just load up CC.\nAgent: Ah, are you asking about credit card payment options? If so, yes, we do offer 0% installment payment plans through credit cards. Does that help? Or do you have more questions?\nUser: Hello?\nAgent: Yes, I  Just \nUser: I I \nAgent: am here!checking, did you have \nUser: did ask about the recall, the, uh, payment of the school fees.\nAgent: Ah, got  For school \nUser: I \nAgent: it!fees, you \nUser: didn't ask about it.\nAgent: Oh, my bad! No worries. Do you have any other questions about the programme or anything else?\nUser: No. I actually look at CCR.\nAgent: Ah, I see. Are you referring to credit transfer or something else? Could you clarify a bit?\nUser: I think you don't care what I mean. I mean, I was looking just looking, and uh, seeing the brochure on this one.\nAgent: Got it, you were just browsing the brochure. No problem at all! Are you still open to continuing your application for the  If so, I can help set up a call with one of our \nUser: Yeah.\nAgent: programme?advisors to guide you through the next steps.\nUser: I'm still considering that.\nAgent: That is perfectly fine! Would you like me to set up a call with an advisor so they can help answer any questions or concerns while you are considering?\nUser: I think currently in offers.\nAgent: Ah, are you asking about any current offers or financial assistance? Yes, we do have education grants of up to $4,000 to help with course fees. There are also flexible payment options like education loans and 0% installment plans.Would you like me to arrange a call with an advisor to go over this in more detail?\nUser: Uh, I think I already know. Thank you.\nAgent: No worries! Since you are still considering, would you like me to schedule a call with an advisor just in case you have more questions later?\nUser: Uh, I think no for now. Thank you.\nAgent: Alright, no problem at all! If you need help later, just reach out. Have a great day, Anthony! Take care!\nUser: Thank you.\nAgent: No \nUser: Alright.\nAgent: problem, take care and have a great day!\n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:52.212327"
+    },
+    {
+      "transcript_index": 40,
+      "transcript": "User: Hello?\nAgent: Hi Anthony! This is Jessica from Kaplan. Do you have a quick minute to chat?\nUser: Hello?\nUser: Hello?\nAgent: Hi Anthony! This is Jessica from Kaplan. Can you hear me? Do you have a quick minute to chat?\nUser: Yes.\nUser: Yes. I do.\nAgent: Great! I wanted to check if you are still interested in pursuing the Social Work and Counselling degree at Bath University?\nUser: Yes. Yes.\nAgent: That is wonderful to hear! Do you have any questions about the programme, or anything else on your mind? I am here to help.\nUser: Um, at the moment, I don't. It's more of when is um, the deadline for the applications?\nAgent: The specific intake dates and deadlines can vary by programme. I can set up a call with your advisor who can provide you with the exact details. Would you like me to arrange that for you?\nUser: I think no need. It's okay.\nAgent: Alright, no problem! Are you still open to continuing your application for the programme?\nUser: Yes.\nAgent: That is great! I can help you schedule a call with one of our advisors to guide you through the next steps. Would you like me to suggest some available times?\nUser: I think it's alright. I think I can manage.\nAgent: Got it, Anthony. If you need any help or have questions later, just let us know. Is there anything else you would like to ask before we wrap up?\nUser: No. I think it's okay for now.\nAgent: Alright, Anthony. Thanks for your time! If you have any questions later, feel free to reach out. Have a great day ahead!\nUser: Thank you.\nAgent: You are welcome! Take care and have a good day!\n",
+      "classification_result": {
+        "intent": "voice_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:47.812656"
+    },
+    {
+      "transcript_index": 41,
+      "transcript": "User: Hello?\nAgent: Hi Xin Hui! This is James from Kaplan Singapore. Do you have \nUser: 5 o. Sorry?\nAgent: No worries! I was just saying I\u2019m James from Kaplan Singapore. Do you have a quick minute to chat?\nUser: Oh, yes.\nAgent: Great! I wanted to check if you're still interested in pursuing the Bachelor of Business \nUser: Sure.\nAgent: in Accounting degree at Manchester University?\nUser: Yes. I'm still interested.\nAgent: That's wonderful to hear! I'm here to answer any questions you might have or help schedule a consultation with one of our student advisors. Do you have any questions about the program or anything else?\nUser: Yeah. I was thinking about taking work study. Is there such a thing in, um, this program?\nAgent: We don\u2019t have a specific work-study program, but Manchester University offers flexible study options, like a mix of face-to-face and online lessons. This makes it easier to balance work and studies.If you'd like, I can set up a call with your advisor to discuss this in more detail. Would that help? Or do you have other questions?\nUser: Uh, So far, no. But, um, the intake is January April. Right?\nAgent: Close! The intakes are in January, May, and September. Does January work for you, or were you thinking of a later intake?\nUser: Uh, I was thinking of a later intake because I want to, uh, secure a job.\nAgent: That makes sense! May or September could be good options for you then. Would you like me to set up a call with your advisor to discuss your plans and timeline further?\nUser: Yeah. Sure.\nAgent: Perfect! We have a few slots available next Monday, December 2\u20149:00 AM, 11:30 AM, or 2:30 PM. Which one works best for you?\nUser: December sorry. December 9, when again?\nAgent: Ah, December 9 is the Monday after next. I don\u2019t have the exact slots for that day yet, but I can check with the advisor. Would you like me to suggest a time for that day, or do you have a specific time in mind?\nUser: Is it better if she, uh, if it's a help, uh, like, just ask her to text me on WhatsApp.\nAgent: Got it! I\u2019ll let the advisor know to reach out to you via WhatsApp instead. They\u2019ll follow up to discuss your plans and timeline.Is there anything else you\u2019d like to ask or clarify?\nUser: No. It's okay.\nAgent: Alright, Xin Hui! The advisor will reach out to you on WhatsApp soon. Thanks for your time, and I wish you all the best with your plans. Have a great day!\nUser: Alright. Thank you. Bye bye.\nAgent: You're very welcome, Xin Hui! Bye-bye, and \n",
+      "classification_result": {
+        "intent": "voice_wants_whatsapp_sms_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:56.802909"
+    },
+    {
+      "transcript_index": 42,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Sorry. What do you say?\nAgent: No worries! I\u2019m James from Kaplan. Do you have a minute to chat?\nUser: You need to chat?\nAgent: Yes, just a quick chat! I wanted to check if you're still interested in pursuing a Diploma with Kaplan. Is now a good time?\nUser: (inaudible speech)\nAgent: Hello? Are you still there? Is now a good time to chat?\nUser: Yeah.\nUser: Yeah. Yeah. \nAgent: Great! Are \nUser: I can.\nAgent: Awesome! Are you still interested in pursuing a Diploma with Kaplan?\nUser: Sorry. No. I don't never interested to diploma.\nAgent: Got it, thanks for letting me know! If you don\u2019t mind me asking, what made you decide against it?\nUser: Okay. We can, uh, text, uh, WhatsApp?\nAgent: Sure, I\u2019ll let your advisor know to follow up with you on WhatsApp. Have a great day!\nUser: Okay. So you can give your WhatsApp that's the WhatsApp number.\nAgent: I don\u2019t have a direct WhatsApp number, but your advisor will reach out to you on WhatsApp soon. Let me know if there\u2019s anything else I can help with!\nUser: Actually, we can set the what's the if if you give me your WhatsApp number, I can set it.\nAgent: I don\u2019t have a personal WhatsApp number to share, but your advisor will message you directly on WhatsApp to assist you. They'll be in touch soon! Let me know if there\u2019s anything else you\u2019d like help with.\n",
+      "classification_result": {
+        "intent": "voice_not_interested",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:05:04.199093"
+    },
+    {
+      "transcript_index": 43,
+      "transcript": "User: Hello?\nAgent: Hi Jim! This is James from Global University. Do \nUser: Hello?\nAgent: you have a quick minute to chat?\nUser: What is this about?\nUser: Hello?\nAgent: I\u2019m following up on your interest in studying the Bachelor of International Business at Global University. Are you still interested in pursuing this degree?\nUser: Um, not at the moment. Thank you.\nAgent: No problem, Jim. Can I ask what made you change your mind? If it\u2019s about costs or time, I\u2019d be happy to share some options that might help.\nUser: Could you just WhatsApp me, please? Um, currently, I'm I'm not available to to to you on online. Yeah.\nAgent: Got it, \nUser: it let me Thank you. Bye bye.\nAgent: No problem, Jim. I'll have my colleague \n",
+      "classification_result": {
+        "intent": "voice_wants_whatsapp_sms_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:53.272519"
+    },
+    {
+      "transcript_index": 44,
+      "transcript": "User: Hello?\nAgent: Hi there! This is James from Kaplan. Do you have a quick minute to chat?\nUser: Hello?\nAgent: Hi! This is James from Kaplan. Can you hear me?\nUser: Oh, \nAgent:  Do you have a moment to chat?\nUser: yeah.\nAgent: Great! I just wanted to check if you are still interested in pursuing a Diploma with Kaplan?\nUser: Uh, no.\nAgent: Oh, I see. May I ask what led you to change your mind? Was it something like the cost, time commitment, or something else?\nUser: Time.\nAgent: I understand, balancing studies with other commitments can be challenging. The good thing about Kaplan is that we offer flexible learning options, like a mix of face-to-face and online lessons, which might help with managing your time.Do you think this flexibility could work for you?\nUser: Online online, the process is how long?\nAgent: You can complete 8 modules in just 8 months for our Diploma programmes. After that, you can even get direct entry into Year 2 of over 300 Bachelor's Degree programmes. Does that sound manageable for you?\nUser: Okay.\nUser: Can you \nAgent: That is great to \nUser: send me WhatsApp details about that?\nAgent: Sure, I will let your advisor know to follow up with you on WhatsApp with the details. Is there anything else you would like to know?\nUser: (inaudible speech)\nAgent: Alright, \nUser: Uh, not \nAgent: I will have your \nUser: yet.\nAgent: No problem at all! If you have any other questions later, feel free to ask. Thank you for your time, and have a great day!\nUser: Okay. Thank you.\n",
+      "classification_result": {
+        "intent": "voice_wants_whatsapp_sms_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:52.744229"
+    },
+    {
+      "transcript_index": 45,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello? \nAgent: Tiffany! This is James from Bath University. Do you have a quick minute to chat?\nUser: Sorry?\nAgent: No worries! Hi Tiffany, this is James from Bath University. Do you have a quick moment to chat?\nUser: Mhmm. No. Having lunch right now.\nAgent: Got it! When would be a better time for me to call you back?\nUser: Uh, can Can you drop me a WhatsApp instead?\nAgent: Sure, I'll let your advisor know to follow up with you on WhatsApp. Have a great lunch, Tiffany!\nUser: Uh-oh. Okay. Thank you.\nAgent: You're welcome, Tiffany! Take care and have a great day!\n",
+      "classification_result": {
+        "intent": "voice_wants_whatsapp_sms_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:49.253871"
+    },
+    {
+      "transcript_index": 46,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello? \nAgent: Tsui Wong, this is James from Kaplan. Do you have a minute to chat?\nUser: Yeah. Yeah. Hi.\nAgent: Great! I wanted to check if you are still interested in pursuing the Digital Systems degree at Centerview University?\nUser: Oh, yes. Yes. Uh, but can you what's that mean instead? Right now, I'm I'm actually busy. Or you can send me an email.\nAgent: No problem at all! I will let your advisor know to follow up with you via email. Is there a better time for \nUser: Thank \nAgent: me to call \nUser: you so much.\nAgent: You are very welcome! Have a great day ahead!\nAgent: If you have \nUser: Hello?\nAgent: any other questions later, feel free to reach out. Take care and goodbye!\nUser: You have to go in Behi.\nAgent: I am sorry, I did not quite catch \nUser: (inaudible speech)\nAgent: Could you clarify that for me? I want to make sure I understand you correctly.\nUser: Hi there. This is, uh, Hyder.\nAgent: Hi \nUser: I want the chicken. Right?\nAgent: I think there might be some confusion. I am James from Kaplan, here to assist with your interest in studying at Centerview University. Could you let me know if you are still interested in pursuing further studies?\nUser: I'm interested in eating chicken rice.\nUser: eating chicken rice.\nAgent: That sounds delicious! If you have any questions about studying at Centerview University or need help with your application, \nUser: Oh, shit. There's Are you AI generated?\nAgent: Yes, I am an AI, but I am here to help you connect with our human advisors or answer any \nUser: Oh, \nAgent: questions you \nUser: hot. What? What's going on? Look at this.\nAgent: It seems like there might be some confusion.\nUser: Please ask your please ask\nAgent: It seems like now might not \nUser: consultant to email me\nAgent: It seems like now might not be the best time to chat. I will let your consultant know to email you instead. Have a great day!\n",
+      "classification_result": {
+        "intent": "voice_wants_email_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:59.182388"
+    },
+    {
+      "transcript_index": 47,
+      "transcript": "User: Hello?\nAgent: Hi Sandy! This is Jessica\nUser: K. Sorry?\nAgent: Oh, sorry about  I am Jessica  Do you have a quick \nUser: Who?\nAgent: that!from Kaplan.minute to chat?\nAgent: I am \nUser: Oh, uh, I can also get an email\nAgent: Jessica from Kaplan! I can definitely arrange for someone to send you an email. Would you like me to make a note for your advisor to follow up that way?\n",
+      "classification_result": {
+        "intent": "voice_wants_email_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:53.102802"
+    },
+    {
+      "transcript_index": 48,
+      "transcript": "Agent: Hello, is this Mandy?\nUser: Okay, okay?\nAgent: Hello, Mandy! I'm Sof\u00eda, an advisor at UVE University. I'm following up on your interest in the online Bachelor's Degree in Education. Are you still interested in this program?\nUser: Can I give you some information?\nAgent: Sure, what information do you need? If it's something specific, I can connect you with an advisor who can help you.\nUser: More like costs, and his name is?\nUser: Um, the program, well, the\nAgent: The\nUser: subjects.\nAgent: Oh, I understand! The program is called online Education. Regarding costs, I don't have that exact information, but I can connect you with an advisor who can explain everything about the costs and available scholarships. Does that seem okay?\nUser: There.\nUser: Um, I'd like to keep that information in my email, but okay?\nAgent: Understood, Mandy! We'll send you an email with the information, and an advisor will follow up with you. Thank you very much for your time. Have a great day!\nUser: Thank you, thank you.\n",
+      "classification_result": {
+        "intent": "voice_wants_email_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:58.196410"
+    },
+    {
+      "transcript_index": 49,
+      "transcript": "User: Hello?\nAgent: Hi Florence! This is Jessica from Kaplan. Do you have a minute to chat?\nUser: Uh, I do not know him. Can you, like, email me the details?\nAgent: Sure, we have your email on our records, and my \nUser: Yeah. \nAgent: colleague will \nUser: You're right.\nUser: Okay, Ken. Ken will do. Thank you.\nUser: Thanks. Bye.\nAgent: Thank you, Florence. Have \n",
+      "classification_result": {
+        "intent": "voice_wants_email_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:54.980857"
+    },
+    {
+      "transcript_index": 50,
+      "transcript": "User: Hello?\nAgent: Hi Hubert! This is James from Kaplan Singapore.\nUser: Yes.\nAgent:  Do you have a quick minute to chat?\nUser: Uh, yes.\nAgent: Great! I wanted to check if you're still interested in pursuing a degree with Bloomberg University through Kaplan?\nUser: Yes. Actually, yeah, I need to do a team.\nUser: Hello?\nAgent: Yes, I'm here! It sounds like you're still interested. Do \nUser: Hello?\nAgent: you have any questions about the program or anything else I can help with?\nUser: Okay. Can you do me a favor? Can you send me the prospectus of the the cost again?\nAgent: I can\u2019t send it directly myself, but I\u2019ll let my colleague know to email you the prospectus with the course details. Is there anything else you\u2019d like me to include in the follow-up?\nUser: Okay. Can I just check with you? Is the call commencing?\nAgent: If you're asking about a consultation call with an advisor, I can help schedule one for you. Would you like me to arrange that?\nUser: Okay. Can you get your colleague to send the the cost informations first? Then I take a look.\nAgent: Got \nUser: if I got any queries, I will email you, then you have to arrange for, give someone to call me back.\nAgent: That works perfectly! I'll make sure my colleague sends over the cost \nUser: Okay.\nAgent: information for you to review. If you have any questions after that, \nUser: K.\nAgent: just email us, and we\u2019ll arrange for someone to call you back. Anything else I can help with for \nUser: Sure. Okay.\nAgent: Great! I'll make sure the information gets sent to you. Have a wonderful day, Hubert!\nUser: (inaudible speech)\n",
+      "classification_result": {
+        "intent": "voice_wants_email_follow_up",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:05:07.114752"
+    },
+    {
+      "transcript_index": 51,
+      "transcript": "Agent: Hello, is this Joan speaking?\nUser: No, you're mistaken.\nAgent: Sorry to bother you. Have a good day.\nUser: Yes.\nAgent: See you later!\nUser: Thanks, too. See you later.\nAgent: See you later.\n",
+      "classification_result": {
+        "intent": "voice_wrong_number",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:55.112249"
+    },
+    {
+      "transcript_index": 52,
+      "transcript": "User: And try again.\nAgent: Hi \nUser: call \nAgent: Andy \nUser: couldn't be connected.\nUser: check the number and try again.\n",
+      "classification_result": {
+        "intent": "voice_voice_mail",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:59.387357"
+    },
+    {
+      "transcript_index": 53,
+      "transcript": "User: Hello?\nAgent: Hi \nUser: Hello? \nAgent: Ahmad! This is James from Kaplan. Do you have a quick minute to chat?\nUser: You're from where?\nAgent: Hi \nUser: Hello?\nAgent: Hong! I'm James from Kaplan Singapore. I\u2019m following up on your interest in studying at Murdoch University. Do you have a moment to chat?\nUser: I think it got a wrong number. You know? I never signed anything there.\nAgent: Oh, I see! Thanks for letting me know, Ahmad. I'll make a note of that.\nUser: Okay. \nAgent:  Have a great day!\nUser: Okay.\nUser: you.\nAgent: Thanks for \n",
+      "classification_result": {
+        "intent": "voice_wrong_number",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:59.944454"
+    },
+    {
+      "transcript_index": 54,
+      "transcript": "User: Julio, buenas tardes.\nAgent: Hi, I think there was a mix-up. Am I speaking to Joseph?\nUser: No, n\u00famero equivocado.\nAgent: Gracias por avisarme. Que tengas un buen d\u00eda. \u00a1Hasta luego!\n",
+      "classification_result": {
+        "intent": "voice_wrong_number",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:57.385446"
+    },
+    {
+      "transcript_index": 55,
+      "transcript": "Agent: Hello, is this Vivian speaking?\nUser: You're mistaken, miss.\nAgent: Oh, excuse the \nAgent: trouble. \nUser: You're mistaken, I've been asked several times about this person, I don't know.\nUser: I've had this number for two years.\nUser: I know what's going on, what's going on there.\nAgent: I'm very sorry for the \nUser: Yes, \nAgent: confusion and the inconvenience \nUser: right away.\nAgent: I understand your \nUser: Well, yes, dude, why are you asking me? That's why Vivian C.P. is here.\n\n",
+      "classification_result": {
+        "intent": "voice_wrong_number",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:59.146702"
+    },
+    {
+      "transcript_index": 56,
+      "transcript": "User: And forward it to voice mail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nAgent: Hi Angela, this is James from Kaplan. I was calling to follow up on your interest in studying at Northern University. If you're still interested, I\u2019d love to help answer any questions or schedule a call with one of our advisors. Feel free to let us know a good time to reach you. Have a great day!\n",
+      "classification_result": {
+        "intent": "voice_voice_mail",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:04:58.167100"
+    },
+    {
+      "transcript_index": 57,
+      "transcript": "User: No call has been whether it's a voice mail. Person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nAgent: Hi Agatha, this is James from Kaplan. I was calling to follow up on your interest in studying at Aston University. If you're still interested, feel free to give us a call back or let us know a good time to reach you. Have a great day!\n",
+      "classification_result": {
+        "intent": "voice_voice_mail",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:05:00.473503"
+    },
+    {
+      "transcript_index": 58,
+      "transcript": "User: Para Por \nAgent: Hello, is this \nUser: favor, deja tu mensaje despu\u00e9s del trono. Si necesitas volver a grabar, marca el signo de n\u00famero y espera instrucciones.\nAgent: Hi Matthew, this is Sofia, I'm calling from ABC University. You've expressed interest in our Bachelor's Degree in Business, and I'm calling to find out if you'd like to consult with your advisor. I'll send you an email; you can search for ABC University in your inbox to respond. Have a nice day!",
+      "classification_result": {
+        "intent": "voice_voice_mail",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:05:04.601049"
+    },
+    {
+      "transcript_index": 59,
+      "transcript": "Agent: Hi \nUser: The \nAgent: there, \nUser: Personality of Belts is Smith with Hickbar.\nAgent: Hi! This is James from Murdoch University. Do you have 30 seconds to chat?\n\nI wanted to check if you\u2019re still interested in the master\u2019s in Business or if you had any questions about our programs? Let me know how I can help!\nUser: To Clarebons, the end\nAgent: Thanks for letting me know! Just to confirm, are you no longer interested in the master\u2019s program at Murdoch \nUser: As you\nAgent: Just to clarify, are you saying you\u2019re not interested in the program anymore, or did you want to continue chatting about your options?\nUser: (inaudible speech)\nAgent: No worries! If you\u2019d like to talk more about the master\u2019s program or have any questions, just let me know. If you\u2019re not interested right now, that\u2019s \n",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:05:05.949647"
+    },
+    {
+      "transcript_index": 60,
+      "transcript": "User: Mail from Nu Ziff 3 ing zebra\nAgent: Hi, am I speaking to James?\nUser: \nAgent: Hi, this is Anna, an A.I. from Global College. I'm following up on your enquiry about the Fine Arts degree. Do you have 90 seconds to speak?\nUser: for student. Want to Tootstray.\nAgent: Got it! I'm here to help.\nUser: 23\nAgent: It sounds like you might be interested in the Fine Arts degree \nUser: for student, Want to new Interspeek. 23\nAgent: I understand. Are you looking to schedule a consultation \nUser: for student, Want to Tootstray.\nAgent: I see, you might be interested \nUser: Touch 3.\nAgent: It sounds like you might be interested in scheduling a \nUser: 2 bereft is for Stuart. The for Bending Ward",
+      "classification_result": {
+        "intent": "voice_unknown",
+        "method": "baseline"
+      },
+      "classified_at": "2025-10-07T19:05:02.966117"
+    }
+  ],
+  "generated_at": "2025-10-07T19:05:07.138381"
+}

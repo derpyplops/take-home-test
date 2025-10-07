@@ -25,7 +25,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 class ImprovementTester:
     def __init__(self, api_key: str):
         self.client = openai.OpenAI(api_key=api_key)
-        self.models = ["gpt-5-mini-2025-08-07", "gpt-5-2025-08-07"]
+        self.models = ["gpt-4.1-2025-04-14", "gpt-5-mini-2025-08-07", "gpt-5-2025-08-07"]
     
     # 1. BASELINE - Original simple prompt
     def baseline_classify(self, transcript: str, model: str) -> Dict:
