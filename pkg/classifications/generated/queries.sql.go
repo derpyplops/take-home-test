@@ -7,7 +7,32 @@ package generated
 
 import (
 	"context"
+	"database/sql"
 )
+
+const insertClassification = `-- name: InsertClassification :exec
+INSERT INTO classifications (id, campaign_thread_id, intent, interested_time, call_back_time)
+VALUES ($1, $2, $3, $4, $5)
+`
+
+type InsertClassificationParams struct {
+	ID               string
+	CampaignThreadID string
+	Intent           string
+	InterestedTime   sql.NullTime
+	CallBackTime     sql.NullTime
+}
+
+func (q *Queries) InsertClassification(ctx context.Context, arg InsertClassificationParams) error {
+	_, err := q.db.ExecContext(ctx, insertClassification,
+		arg.ID,
+		arg.CampaignThreadID,
+		arg.Intent,
+		arg.InterestedTime,
+		arg.CallBackTime,
+	)
+	return err
+}
 
 const listClassificationsForThread = `-- name: ListClassificationsForThread :many
 SELECT id, campaign_thread_id, created_at, updated_at, interested_time, call_back_time, intent
@@ -32,6 +57,41 @@ func (q *Queries) ListClassificationsForThread(ctx context.Context, campaignThre
 			&i.InterestedTime,
 			&i.CallBackTime,
 			&i.Intent,
+		); err != nil {
+			return nil, err
+		}
+		items = append(items, i)
+	}
+	if err := rows.Close(); err != nil {
+		return nil, err
+	}
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+	return items, nil
+}
+
+const listVoiceCallsForThread = `-- name: ListVoiceCallsForThread :many
+SELECT id, campaign_thread_id, created_at, called_at, transcript, time_zone FROM voice_calls
+WHERE campaign_thread_id = $1
+`
+
+func (q *Queries) ListVoiceCallsForThread(ctx context.Context, campaignThreadID string) ([]VoiceCall, error) {
+	rows, err := q.db.QueryContext(ctx, listVoiceCallsForThread, campaignThreadID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	var items []VoiceCall
+	for rows.Next() {
+		var i VoiceCall
+		if err := rows.Scan(
+			&i.ID,
+			&i.CampaignThreadID,
+			&i.CreatedAt,
+			&i.CalledAt,
+			&i.Transcript,
+			&i.TimeZone,
 		); err != nil {
 			return nil, err
 		}
